@@ -1,5 +1,23 @@
 ## Initiate Git On Local Machine
 
+On your computer, create a project folder for your new project. Name it github_exercises. You can create the folder using your operating system's graphical user interface, which is probably the way you're used to creating new folders on your computer.
+
+But it's better that you learn and practice terminal commands.
+
+Open VS Code. In the pulldown options at the top, select View and then Terminal. It should open a terminal session. In the terminal, type `pwd`. The terminal should print the present working directory, which is the folder that your terminal is currently operating in. It is probably in your computer's root folder.
+
+You can use the terminal to list the contents of the present working directory. Use the `ls` command to list the items in the present working directory.
+
+You can use the terminal to change the location of the present working directory. Use `cd <filepath_for_folder>` to change directories (to move the termianl into that named folder). For instance, if the folder you want to change into is in your present working directory and is named `developer_projects`, to change your present working directory to that folder, type `cd developer_projects` and hit enter. Note that because this folder is in the present working directory, you just type `cd` followed by the folder name rather than the whole path for that folder.
+
+Type `pwd` to confirm that you are in the correct folder. Type `ls` to see its contents. Repeat these steps until the present working directory for your terminal is the one where you want your project folder to live.
+
+Or instead of repeating these steps, type in your terminal `cd` followed by a space ` ` and then using your operating system's graphical user interface, drag to the terminal the folder where you want your project folder to live. You should see after the `cd ` a filepath for your folder. Then hit enter and confirm you are in the correct folder using `pwd` and `ls`.
+
+Create a project folder. Name it `github_exercises`. Then change directories into that folder `cd github_exercises`. Use `pwd` and `ls` to confirm you're in the correct folder.
+
+Check the status of your local git repository. In your terminal, type `git status` and hit enter. You should see a list of filepaths, which means you need to initiate a local git repository for your project.
+
 ```python
 git status
 
@@ -34,12 +52,25 @@ git status
         ../../../../../../user_dict = {
 ```
 
+To initiate a local git repository, type in your terminal `git init` and hit enter.
+
 ```python
 git init
 
 # output in terminal
 Initialized empty Git repository in /Users/jonathangrossman/Documents/Developer/ITC/Work/git/github_exercises/.git/
 ```
+
+Your terminal should say that you initialized an empty git repository. Do two things to confirm. List all the contents in your folder. When you initiate a local git repository, it creates a hidden file in your project folder called `.git`. The `.` means that it's hidden. To see hidden files, type in your terminal `ls -al`. You should see a `.git` file listed in the terminal.
+
+```python
+total 16
+drwxr-xr-x   4 jonathangrossman  staff   128 Sep 30 14:07 .
+drwxr-xr-x   4 jonathangrossman  staff   128 Jun 21 15:35 ..
+drwxr-xr-x  12 jonathangrossman  staff   384 Sep 30 14:49 .git
+```
+
+The other thing is the terminal commant `git status`.
 
 ```python
 git status
@@ -57,7 +88,9 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
-Stage your uncommitted changes by adding all changes.
+Remember before the git init, `git status` returned a list of filepaths. Now the terminal output is different. It confirms you successfully iniated a local git repository.
+
+The next step is to add a file to your project. In your project folder, create a file named githubCommands.js. Leave it empty for now. To save the changes to your local git repository, first you need to stage your edits using `git add -A`. The `-A` means to add all the changes made.
 
 ```python
 git add -A
@@ -65,7 +98,7 @@ git add -A
 # nothing should happen in the terminal
 ```
 
-Commit the staged changes to your local git history.
+Next you need to commit the staged changes to your local git history. The staging doesn't actually save the changes. You need to commit them for the changes to save to the local git repository. Use `git commit -m "a short desriptive message about the changes"`.
 
 ```python
 git commit -m 'first commit'
@@ -75,6 +108,8 @@ git commit -m 'first commit'
  1 file changed, 60 insertions(+)
  create mode 100644 01_getting_started.md
 ```
+
+You successfully saved your project folder to a local git repository.
 
 ## Create a GitHub Repository
 
