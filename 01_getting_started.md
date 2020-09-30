@@ -90,7 +90,9 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Remember before the git init, `git status` returned a list of filepaths. Now the terminal output is different. It confirms you successfully iniated a local git repository.
 
-The next step is to add a file to your project. In your project folder, create a file named githubCommands.js. Leave it empty for now. To save the changes to your local git repository, first you need to stage your edits using `git add -A`. The `-A` means to add all the changes made.
+The next step is to add a file to your project. In your project folder, create a file named githubCommands.js. Leave it empty for now.
+
+Next, you need to save a copy of your project folder to the local git history. When you save your folder, you're only saving the newest changes since the last time you saved. To save the changes to your local git repository, first you need to stage your edits using `git add -A`. The `-A` means to add all the changes made.
 
 ```python
 git add -A
@@ -113,15 +115,17 @@ You successfully saved your project folder to a local git repository.
 
 ## Create a GitHub Repository
 
-Create a repository on GitHub. Login to your GitHub account. In the upper righthand corner, find the plus sign (`+`). Click it and choose 'New Repository'.
+Now that you have a project folder with a local git repository, you need to connect the local git repository to a remote one. The first step to connect your local and remote repositories is to create a remote repository. For the remote repository, you should use GitHub.
 
-On the 'New Repository' page, you need to specify the details of your repository. First, for repository template, choose 'No template'. For the owner, choose your GitHub account. For the Respository name, give it the name github_exercises.
+Login to your GitHub account. In the upper righthand corner, find the plus sign (`+`). Click it and choose 'New Repository'.
+
+On the 'New Repository' page, you need to specify the details of your repository. First, for repository template, choose 'No template'. For the owner, choose your GitHub account. For the Respository name, give it the name github_exercises. The name of your repository doesn't need to be the same name as the project folder on your machine, but you might find that to be a good way to keep things organized.
 
 Leave the description blank, choose private, and click the 'Create repository' button. GitHub should redirect you to the Quickstart page for your new repository. Read the instructions on that page but don't yet follow them. Follow what's below instead.
 
 ## Connect Local Git to GitHub
 
-Before connecting your local git history to your GitHub repository, confirm that your local git doesn't yet have a remote connection.
+Before connecting your local git history to your GitHub repository, confirm that your local git doesn't yet have a remote connection. In your terminal, type `git remote.`
 
 ```python
 git remote
@@ -129,13 +133,15 @@ git remote
 # should return nothing in the terminal
 ```
 
-Now let's add a remote. To add a remote repositorty to your local git, the command is `git remote add <name_of_remote> <link_to_github_repo>`. The link to your GitHub repository is on the Quickstart page for your repo and looks something like `git@github.com:<your_github_username>/<your_github_repo_name>.git`
+Now add a remote. When you add a remote, you are telling the local git repository the address of where to find your remote repository. To add a remote repository to your local git, the terminal command is `git remote add <name_of_remote> <link_to_github_repo>`. For the `<name_of_remote>`, use `origin`. For the `<link_to_github_repo>`, it is on the Quickstart page for your repo and looks something like `git@github.com:<your_github_username>/<your_github_repo_name>.git`.
 
 ```python
 git remote add origin git@github.com:JonathanGrossmanITC/github_exercises.git
 
 # should return nothing in the terminal
 ```
+
+Now, check again your local git's remote reference using `git remote`. This time you should see the terminal print `origin`.
 
 ```python
 git remote
@@ -144,7 +150,7 @@ git remote
 origin
 ```
 
-Push the local git history to your GitHub repo. Remember above when you committed changes to the local git, now you are going to push those committed changes to your GitHub repository. When first connecting local to remote, the command is `git push -u origin master`.
+Now that you've connected the local and remote repositories, save the local git history to your GitHub repo. Remember above when you committed changes to the local git, now you are going to push those committed changes to your GitHub repository. The current version of your project folder from your computer will be saved to GitHub. When first connecting local to remote, the command is `git push -u origin master`.
 
 ```python
 git push -u origin master
@@ -162,4 +168,6 @@ To github.com-JonathanGrossmanITC:JonathanGrossmanITC/github_exercises.git
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
 
-Visit your GitHub repository in a browser. Make sure the page is freshly reloaded. You should see your commit in the repository.
+From here on out, you only need to use the command `git push` instead of `git push -u origin master` to push your local to the remote.
+
+Visit your GitHub repository in a browser. Make sure the page is freshly reloaded. You should see your commit in the repository. Your project folder from your computer should now be on GitHub.
