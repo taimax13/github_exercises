@@ -1,6 +1,6 @@
 # create a new branch
 
-Create a new branch called `from _itc`.
+Create a new branch called `from _itc`. Enter in your terminal the command `git checkout -b from_itc`. The `checkout`command is how you switch between locations in git, `-b` is for making a new branch, and `from_itc` is the name of the new branch.
 
 ```python
 git checkout -b from_itc
@@ -8,6 +8,21 @@ git checkout -b from_itc
 # output
 Switched to a new branch 'from_itc'
 ```
+
+If you run the same command again, you'll get a message saying the branch already exists.
+
+```python
+fatal: A branch named 'from_itc' already exists.
+```
+
+To switch from the `from_itc` branch back to master, enter `git checkout master`. To switch from master to `from_itc`, enter `git checkout from_itc`. Each time you switch, your terminal should message you.
+
+```python
+Switched to branch 'from_itc'
+Your branch is up to date with 'origin/from_itc'.
+```
+
+````
 
 To see a list of your branches and which branch you're on, enter `git branch`.
 
@@ -17,9 +32,9 @@ git branch
 # output
 * from_itc
   master
-```
+````
 
-Type `ls` to see a list of the contents. What is in your folder?
+Make sure you're in the `from_itc` branch. `git checkout from_itc`. Type `ls` to see a list of the contents. What is in your folder?
 
 ```python
 git clone https://github.com/JonathanGrossmanITC/github_exercises.git
