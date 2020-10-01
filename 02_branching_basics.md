@@ -108,38 +108,62 @@ Fast-forward
 
 Also, look at your folders in VS Code. The `github_exercises` folder that you cloned into the `from_itc` branch should now appear. In your terminal, type `git branch`. It should indicate that you're in the master branch.
 
-# Assignment
-
-Create a new branch called `assignment`. While in the `assignment` branch, add the code below to your gitHubCommands.js file. For each variable, replace the empty string with a string describing the corresponding git command. Then merge the `assignment` branch into the master branch and push the master to GitHub.
+Now you need to stage and commit your changes to the master branch. Then push your commits to GitHub.
 
 ```python
-# git add
-const gitAdd = ''
+git add -A
 
-# git commit
-const gitCommit = ''
+git commit -m 'merged with definitions'
 
-# git status
-const gitStatus = ''
-
-# git push
-const gitPush = ''
-
-# git merge
-const gitMerge = ''
-
-# git checkout
-const gitCheckout = ''
-
-# git branch
-const gitBranch = ''
-
-# git clone
-const gitClone = ''
-
-# git pull
-const gitPull = ''
-
-# git remote
-const gitRemote = ''
+git push
 ```
+
+## Add definitions to js file
+
+Create a new branch called `definitions`. While in the `definitions` branch, add the code below to your gitHubCommands.js file.
+
+```js
+// git add
+const gitAdd = "";
+
+// git commit
+const gitCommit = "";
+
+// git status
+const gitStatus = "";
+
+// git push
+const gitPush = "";
+
+// git merge
+const gitMerge = "";
+
+// git checkout
+const gitCheckout = "";
+
+// git branch
+const gitBranch = "";
+
+// git clone
+const gitClone = "";
+
+// git pull
+const gitPull = "";
+
+// git remote
+const gitRemote = "";
+```
+
+Don't yet add actual definitions. Push your changes to the `definitions` branch. Then merge the `definitions` branch into the master branch. Next stage and commit the change to master. Finally, push the master to GitHub.
+
+When merging two branches, the branches might have a conflict. A conflict occurs when two branches have edits for the same file that interfere with one another. You can't make both edits because making one of the edits means you can't make the other.
+
+To see what it's like to have a conflict, create a `revised-definitions` branch.
+
+In your gitHubCommands.js file, add definitions to to each variable inside the quotation marks.Stage, commit, and push your changes to `revised-definitions`.
+
+Checkout the `master` branch.
+
+In your gitHubCommands.js file, assuming you don't already have the exact definition, change the definition for `gitRemote` to `const gitRemote = "manage remote git (GitHub)";`. When you try to save your file in VS Code, VS Code may give you an error message saying you have a conflict between files. Fix the conflict. Then merge `revised-definitions` to master. Then, stage, commit, and push master.
+
+If you don't see an error from VS Code when trying to save, merge `revised-definitions` to master. If you still don't see a merge conflict. Stage and commit your changes to master and then merge `revised-definitions` to master. At some point along the way, you should see a merge conflict. It's when two branches have changes that are inconsistent with one another. You need to choose which change should be accepted. After resolving conflicts, merging your `revised-definitions` branch into `master`. Then you should stage, commit, and push your master branch.
