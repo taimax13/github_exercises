@@ -14,7 +14,9 @@ Type `pwd` to confirm that you are in the correct folder. Type `ls` to see its c
 
 Or instead of repeating these steps, type in your terminal `cd` followed by a space ` ` and then using your operating system's graphical user interface, drag to the terminal the folder where you want your project folder to live. You should see after the `cd ` a filepath for your folder. Then hit enter and confirm you are in the correct folder using `pwd` and `ls`.
 
-Create a project folder. Name it `github_exercises`. Then change directories into that folder `cd github_exercises`. Use `pwd` and `ls` to confirm you're in the correct folder.
+Create a project folder. Use the terminal command `mkdir <folder_name>` to make a new folder in your `pwd`. Use for your `<folder_name>` the name `github_exercises`. The comand then should be `cd github_exercises`. Enter `ls` in your terminal. You should see your new folder.
+
+Then change directories into that folder `cd github_exercises`. Use `pwd` and `ls` to confirm you're in the correct folder.
 
 Check the status of your local git repository. In your terminal, type `git status` and hit enter. You should see a list of filepaths, which means you need to initiate a local git repository for your project.
 
@@ -70,7 +72,7 @@ drwxr-xr-x   4 jonathangrossman  staff   128 Jun 21 15:35 ..
 drwxr-xr-x  12 jonathangrossman  staff   384 Sep 30 14:49 .git
 ```
 
-The other thing is the terminal commant `git status`.
+The other thing is the terminal command `git status`.
 
 ```python
 git status
@@ -90,7 +92,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Remember before the git init, `git status` returned a list of filepaths. Now the terminal output is different. It confirms you successfully iniated a local git repository.
 
-The next step is to add a file to your project. In your project folder, create a file named githubCommands.js. Leave it empty for now.
+The next step is to add a file to your project. In your project folder, create a file named gitHubCommands.js. Leave it empty for now.
 
 Next, you need to save a copy of your project folder to the local git history. When you save your folder, you're only saving the newest changes since the last time you saved. To save the changes to your local git repository, first you need to stage your edits using `git add -A`. The `-A` means to add all the changes made.
 
