@@ -1,4 +1,4 @@
-# create a new branch
+## Create New Branch
 
 Create a new branch called `from _itc`. Enter in your terminal the command `git checkout -b from_itc`. The `checkout`command is how you switch between locations in git, `-b` is for making a new branch, and `from_itc` is the name of the new branch.
 
@@ -15,14 +15,12 @@ If you run the same command again, you'll get a message saying the branch alread
 fatal: A branch named 'from_itc' already exists.
 ```
 
-To switch from the `from_itc` branch back to master, enter `git checkout master`. To switch from master to `from_itc`, enter `git checkout from_itc`. Each time you switch, your terminal should message you.
+To switch from the `from_itc` branch back to master, enter `git checkout master`. To switch from master to `from_itc`, enter `git checkout from_itc`. Each time you switch, your terminal should message you something like the following.
 
 ```python
 Switched to branch 'from_itc'
 Your branch is up to date with 'origin/from_itc'.
 ```
-
-````
 
 To see a list of your branches and which branch you're on, enter `git branch`.
 
@@ -32,7 +30,7 @@ git branch
 # output
 * from_itc
   master
-````
+```
 
 Make sure you're in the `from_itc` branch. `git checkout from_itc`. Type `ls` to see a list of the contents. What is in your folder?
 
@@ -51,6 +49,28 @@ Unpacking objects: 100% (12/12), done.
 Type `ls` to see a list of the contents. Do you see the cloned repo? What else is in your folder?
 
 Change directories into the `github_exercises` folder. Look at the list of all contents using `ls -al`. You should see a `.git` folder. This is the local git history for the cloned repo. You should delete it. After deleting it, type `ls -al` to confirm it's gone.
+
+If you don't delete the cloned repo's git history, you will get a warning message like the following:
+
+```python
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> github_exercises
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached github_exercises
+hint:
+hint: See "git help submodule" for more information.
+```
+
+In the warning message, the "another git repository inside your current repository" is the clone repo's git history. If you delete the cloned repo's git history, this warning message disappears.
+
+## Push the Branch
 
 You can change directories up one folder using `cd ..`. Change from the `github_exercises` folder up one to your project folder. Type `ls` to see the folder contents.
 
@@ -88,7 +108,7 @@ Fast-forward
 
 Also, look at your folders in VS Code. The `github_exercises` folder that you cloned into the `from_itc` branch should now appear. In your terminal, type `git branch`. It should indicate that you're in the master branch.
 
-# Assignment.
+# Assignment
 
 Create a new branch called `assignment`. While in the `assignment` branch, add the code below to your gitHubCommands.js file. For each variable, replace the empty string with a string describing the corresponding git command. Then merge the `assignment` branch into the master branch and push the master to GitHub.
 
