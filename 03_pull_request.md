@@ -22,5 +22,5 @@ In the Github Exercises repository, the "Pull requests" link should now display 
 
 If you would like to try creating a pull request using a fork, here are some resources to help guide you:
 
-[GitHub Fork / Pull](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)
+[GitHub Fork / Pull](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request-from-a-fork)  
 [Blog about fork-and-branch git flow](https://blog.scottlowe.org/2015/01/27/using-fork-branch-git-workflow/)
