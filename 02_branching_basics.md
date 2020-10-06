@@ -68,7 +68,7 @@ hint:
 hint: See "git help submodule" for more information.
 ```
 
-In the warning message, the "another git repository inside your current repository" is the clone repo's git history. If you delete the cloned repo's git history, this warning message disappears.
+In the warning message, the "another git repository inside your current repository" is the cloned repo's git history. If you delete the cloned repo's git history, this warning message disappears.
 
 ## Push the Branch
 
