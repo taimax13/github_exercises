@@ -21,7 +21,8 @@ Then change directories into that folder `cd github_exercises`. Use `pwd` and `l
 Check the status of your local git repository. In your terminal, type `git status` and hit enter. You should see a list of filepaths, which means you need to initiate a local git repository for your project.
 
 ```python
-git status
+>>> git status
+
 
 # output in terminal
  ../../../../../../.CFUserTextEncoding
@@ -57,7 +58,8 @@ git status
 To initiate a local git repository, type in your terminal `git init` and hit enter.
 
 ```python
-git init
+>>> git init
+
 
 # output in terminal
 Initialized empty Git repository in /Users/jonathangrossman/Documents/Developer/ITC/Work/git/github_exercises/.git/
@@ -75,7 +77,8 @@ drwxr-xr-x  12 name  staff   384 Sep 30 14:49 .git
 The other thing is the terminal command `git status`.
 
 ```python
-git status
+>>> git status
+
 
 # output in terminal
 On branch master
@@ -97,7 +100,8 @@ The next step is to add a file to your project. In your project folder, create a
 Next, you need to save a copy of your project folder to the local git history. When you save your folder, you're only saving the newest changes since the last time you saved. To save the changes to your local git repository, first you need to stage your edits using `git add -A`. The `-A` means to add all the changes made.
 
 ```python
-git add -A
+>>> git add -A
+
 
 # nothing should happen in the terminal
 ```
@@ -105,7 +109,8 @@ git add -A
 Next you need to commit the staged changes to your local git history. The staging doesn't actually save the changes. You need to commit them for the changes to save to the local git repository. Use `git commit -m "a short desriptive message about the changes"`.
 
 ```python
-git commit -m 'first commit'
+>>> git commit -m 'first commit'
+
 
 # output in terminal
 [master (root-commit) 1d49d54] first commit
@@ -130,7 +135,8 @@ Leave the description blank, choose private, and click the 'Create repository' b
 Before connecting your local git history to your GitHub repository, confirm that your local git doesn't yet have a remote connection. In your terminal, type `git remote.`
 
 ```python
-git remote
+>>> git remote
+
 
 # should return nothing in the terminal
 ```
@@ -138,7 +144,8 @@ git remote
 Now add a remote. When you add a remote, you are telling the local git repository the address of where to find your remote repository. To add a remote repository to your local git, the terminal command is `git remote add <name_of_remote> <link_to_github_repo>`. For the `<name_of_remote>`, use `origin`. For the `<link_to_github_repo>`, it is on the Quickstart page for your repo and looks something like `git@github.com:<your_github_username>/<your_github_repo_name>.git`.
 
 ```python
-git remote add origin git@github.com:YourGitHubName/github_exercises.git
+>>> git remote add origin git@github.com:YourGitHubName/github_exercises.git
+
 
 # should return nothing in the terminal
 ```
@@ -146,7 +153,8 @@ git remote add origin git@github.com:YourGitHubName/github_exercises.git
 Now, check again your local git's remote reference using `git remote`. This time you should see the terminal print `origin`.
 
 ```python
-git remote
+>>> git remote
+
 
 # output in terminal
 origin
@@ -155,7 +163,8 @@ origin
 Now that you've connected the local and remote repositories, save the local git history to your GitHub repo. Remember above when you committed changes to the local git, now you are going to push those committed changes to your GitHub repository. The current version of your project folder from your computer will be saved to GitHub. When first connecting local to remote, the command is `git push -u origin master`.
 
 ```python
-git push -u origin master
+>>> git push -u origin master
+
 
 # output in terminal
 
