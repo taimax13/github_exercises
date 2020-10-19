@@ -14,7 +14,7 @@ Type `pwd` to confirm that you are in the correct folder. Type `ls` to see its c
 
 Or instead of repeating these steps, type in your terminal `cd` followed by a space ` ` and then using your operating system's graphical user interface, drag to the terminal the folder where you want your project folder to live. You should see after the `cd ` a filepath for your folder. Then hit enter and confirm you are in the correct folder using `pwd` and `ls`.
 
-Create a project folder. Use the terminal command `mkdir <folder_name>` to make a new folder in your `pwd`. Use for your `<folder_name>` the name `github_exercises`. The comand then should be `cd github_exercises`. Enter `ls` in your terminal. You should see your new folder.
+Create a project folder. Use the terminal command `mkdir <folder_name>` to make a new folder in your `pwd`. Use for your `<folder_name>` the name `github_exercises`. The command then should be `cd github_exercises`. Enter `ls` in your terminal. You should see your new folder.
 
 Then change directories into that folder `cd github_exercises`. Use `pwd` and `ls` to confirm you're in the correct folder.
 
@@ -62,7 +62,7 @@ To initiate a local git repository, type in your terminal `git init` and hit ent
 
 
 # output in terminal
-Initialized empty Git repository in /Users/jonathangrossman/Documents/Developer/ITC/Work/git/github_exercises/.git/
+Initialized empty Git repository in /Documents/github_exercises/.git/
 ```
 
 Your terminal should say that you initialized an empty git repository. Do two things to confirm. List all the contents in your folder. When you initiate a local git repository, it creates a hidden file in your project folder called `.git`. The `.` means that it's hidden. To see hidden files, type in your terminal `ls -al`. You should see a `.git` file listed in the terminal.
