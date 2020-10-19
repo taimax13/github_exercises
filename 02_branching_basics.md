@@ -40,8 +40,10 @@ To see a list of your branches and which branch you're on, enter `git branch`.
 
 Make sure you're in the `from_itc` branch. `git checkout from_itc`. Type `ls` to see a list of the contents. What is in your folder?
 
+Now clone this repository using `git clone`.
+
 ```
->>> git clone https://github.com/YourGitHubName/github_exercises.git
+>>> git clone <https for repo you're cloning>
 
 #output
 Cloning into 'github_exercises'...
@@ -54,7 +56,7 @@ Unpacking objects: 100% (12/12), done.
 
 Type `ls` to see a list of the contents. Do you see the cloned repo? What else is in your folder?
 
-Change directories into the `github_exercises` folder. Look at the list of all contents using `ls -al`. You should see a `.git` folder. This is the local git history for the cloned repo. You should delete it. After deleting it, type `ls -al` to confirm it's gone.
+Change directories into the folder for the repository you just cloned. Look at the list of all contents using `ls -al`. You should see a `.git` folder. This is the local git history for the cloned repo. You should delete it. After deleting it, type `ls -al` to confirm it's gone.
 
 If you don't delete the cloned repo's git history, you will get a warning message like the following:
 
@@ -78,7 +80,7 @@ In the warning message, the "another git repository inside your current reposito
 
 ## Push the Branch
 
-You can change directories up one folder using `cd ..`. Change from the `github_exercises` folder up one to your project folder. Type `ls` to see the folder contents.
+You can change directories up one folder using `cd ..`. Change from the cloned repository folder up one to your project's folder. Type `ls` to see the folder contents.
 
 It's time to push your branch to GitHub. Check the status `git status`. You should see some red untracked files. Track them by adding them to the staging area `git add -A`. Then commit them `git commit -m "cloned from itc"`. Then push `git push`. You might get a terminal message `git push --set-upstream origin from_itc`. Copy that and enter it in your terminal.
 
@@ -91,7 +93,7 @@ Your branch is up to date with 'origin/from_itc'.
 nothing to commit, working tree clean
 ```
 
-Now switch from the `from_itc` branch to the `master` branch entering in your terminal `git checkout master`. You folders in VS Code should change to the master branch. Look at your folders. The `github_exercises` folder should be missing.
+Now switch from the `from_itc` branch to the `master` branch entering in your terminal `git checkout master`. You folders in VS Code should change to the master branch. Look at your folders. The cloned repo folder should be missing from your `master` branch.
 
 You should now merge the `from_itc` branch into the `master` branch. Enter in the terminal `git merge from_itc`. In your terminal, you should see something like:
 
@@ -112,7 +114,7 @@ Fast-forward
  create mode 100644 github_exercises/04_clone_project.md
 ```
 
-Also, look at your folders in VS Code. The `github_exercises` folder that you cloned into the `from_itc` branch should now appear. In your terminal, type `git branch`. It should indicate that you're in the `master` branch.
+Also, look at your folders in VS Code. The folder for the repository that you cloned into the `from_itc` branch should now appear in `master`. In your terminal, type `git branch`. It should indicate that you're in the `master` branch.
 
 Now you need to stage and commit your changes to the `master` branch. Then push your commits to GitHub.
 
