@@ -1,9 +1,11 @@
 ## Create New Branch
 
+In this exercise, you are going to create a new branch in your git directory. A branch is a copy of the master that you can make edits to. Professional developers use branches to develop new features outside of the main git history so that they can perfect their work before merging it into the master branch. A common workflow is to create a new branch from the master, write your new code, merge the competed code into the master, delete the branch.
+
 Create a new branch called `from _itc`. Enter in your terminal the command `git checkout -b from_itc`. The `checkout`command is how you switch between locations in git, `-b` is for making a new branch, and `from_itc` is the name of the new branch.
 
-```python
-git checkout -b from_itc
+```
+>>> git checkout -b from_itc
 
 # output
 Switched to a new branch 'from_itc'
@@ -11,21 +13,25 @@ Switched to a new branch 'from_itc'
 
 If you run the same command again, you'll get a message saying the branch already exists.
 
-```python
+```
+>>> git checkout -b from_itc
+
+# output
 fatal: A branch named 'from_itc' already exists.
 ```
 
 To switch from the `from_itc` branch back to master, enter `git checkout master`. To switch from master to `from_itc`, enter `git checkout from_itc`. Each time you switch, your terminal should message you something like the following.
 
-```python
+```
+# output in terminal
 Switched to branch 'from_itc'
 Your branch is up to date with 'origin/from_itc'.
 ```
 
 To see a list of your branches and which branch you're on, enter `git branch`.
 
-```python
-git branch
+```
+>>> git branch
 
 # output
 * from_itc
@@ -34,8 +40,8 @@ git branch
 
 Make sure you're in the `from_itc` branch. `git checkout from_itc`. Type `ls` to see a list of the contents. What is in your folder?
 
-```python
-git clone https://github.com/JonathanGrossmanITC/github_exercises.git
+```
+>>> git clone https://github.com/YourGitHubName/github_exercises.git
 
 #output
 Cloning into 'github_exercises'...
@@ -52,7 +58,7 @@ Change directories into the `github_exercises` folder. Look at the list of all c
 
 If you don't delete the cloned repo's git history, you will get a warning message like the following:
 
-```python
+```
 hint: You've added another git repository inside your current repository.
 hint: Clones of the outer repository will not contain the contents of
 hint: the embedded repository and will not know how to obtain it.
@@ -74,11 +80,11 @@ In the warning message, the "another git repository inside your current reposito
 
 You can change directories up one folder using `cd ..`. Change from the `github_exercises` folder up one to your project folder. Type `ls` to see the folder contents.
 
-It's time to push your branch to GitHub. Check the status `git status`. You should see some red untracked files. Track them by adding them to the staging area `git add -A`. Then commit them `git commit -m cloned from itc`. Then push `git push`. You might get a terminal message `git push --set-upstream origin from_itc`. Copy that and enter it in your terminal.
+It's time to push your branch to GitHub. Check the status `git status`. You should see some red untracked files. Track them by adding them to the staging area `git add -A`. Then commit them `git commit -m "cloned from itc"`. Then push `git push`. You might get a terminal message `git push --set-upstream origin from_itc`. Copy that and enter it in your terminal.
 
 You should see in your terminal:
 
-```python
+```
 On branch from_itc
 Your branch is up to date with 'origin/from_itc'.
 
@@ -89,7 +95,7 @@ Now switch from the `from_itc` branch to the `master` branch entering in your te
 
 You should now merge the `from_itc` branch into the `master` branch. Enter in the terminal `git merge from_itc`. In your terminal, you should see something like:
 
-```python
+```
 Updating 22e99f0..761baee
 Fast-forward
  gitHubCommands.js                       |   1 +
@@ -106,11 +112,11 @@ Fast-forward
  create mode 100644 github_exercises/04_clone_project.md
 ```
 
-Also, look at your folders in VS Code. The `github_exercises` folder that you cloned into the `from_itc` branch should now appear. In your terminal, type `git branch`. It should indicate that you're in the master branch.
+Also, look at your folders in VS Code. The `github_exercises` folder that you cloned into the `from_itc` branch should now appear. In your terminal, type `git branch`. It should indicate that you're in the `master` branch.
 
-Now you need to stage and commit your changes to the master branch. Then push your commits to GitHub.
+Now you need to stage and commit your changes to the `master` branch. Then push your commits to GitHub.
 
-```python
+```
 git add -A
 
 git commit -m 'merged with definitions'
@@ -160,10 +166,10 @@ When merging two branches, the branches might have a conflict. A conflict occurs
 
 To see what it's like to have a conflict, create a `revised-definitions` branch.
 
-In your gitHubCommands.js file, add definitions to to each variable inside the quotation marks.Stage, commit, and push your changes to `revised-definitions`.
+While on your `revised-definitions` branch, in your gitHubCommands.js file, add definitions to to each variable inside the quotation marks. Stage, commit, and push your changes to `revised-definitions`.
 
 Checkout the `master` branch.
 
-In your gitHubCommands.js file, assuming you don't already have the exact definition, change the definition for `gitRemote` to `const gitRemote = "manage remote git (GitHub)";`. When you try to save your file in VS Code, VS Code may give you an error message saying you have a conflict between files. Fix the conflict. Then merge `revised-definitions` to master. Then, stage, commit, and push master.
+In your gitHubCommands.js file, assuming you don't already have the exact definition, change the definition for `gitRemote` to `const gitRemote = "manage remote git (GitHub)";`. When you try to save your file in VS Code, VS Code may give you an error message saying you have a conflict between files. Fix the conflict. Then merge `revised-definitions` to `master`. Then, stage, commit, and push to `master`.
 
-If you don't see an error from VS Code when trying to save, merge `revised-definitions` to master. If you still don't see a merge conflict. Stage and commit your changes to master and then merge `revised-definitions` to master. At some point along the way, you should see a merge conflict. It's when two branches have changes that are inconsistent with one another. You need to choose which change should be accepted. After resolving conflicts, merging your `revised-definitions` branch into `master`. Then you should stage, commit, and push your master branch.
+If you don't see an error from VS Code when trying to save, go ahead and merge `revised-definitions` to `master`. If you still don't see a merge conflict. Stage and commit your changes to `master` and then merge `revised-definitions` to `master`. At some point along the way, you should see a merge conflict. It's when two branches have changes that are inconsistent with one another. You need to choose which change should be accepted. After resolving conflicts, merg your `revised-definitions` branch into `master`. Then you should stage, commit, and push your `master` branch.
