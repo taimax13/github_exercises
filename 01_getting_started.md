@@ -8,7 +8,7 @@ Open VS Code. In the pulldown options at the top, select View and then Terminal.
 
 You can use the terminal to list the contents of the present working directory. Use the `ls` command to list the items in the present working directory.
 
-You can use the terminal to change the location of the present working directory. Use `cd <filepath_for_folder>` to change directories (to move the termianl into that named folder). For instance, if the folder you want to change into is in your present working directory and is named `developer_projects`, to change your present working directory to that folder, type `cd developer_projects` and hit enter. Note that because this folder is in the present working directory, you just type `cd` followed by the folder name rather than the whole path for that folder.
+You can use the terminal to change the location of the present working directory. Use `cd <filepath_for_folder>` to change directories (to move the terminal into that named folder). For instance, if the folder you want to change into is in your present working directory and is named `developer_projects`, to change your present working directory to that folder, type `cd developer_projects` and hit enter. Note that because this folder is in the present working directory, you just type `cd` followed by the folder name rather than the whole path for that folder.
 
 Type `pwd` to confirm that you are in the correct folder. Type `ls` to see its contents. Repeat these steps until the present working directory for your terminal is the one where you want your project folder to live.
 
@@ -67,9 +67,9 @@ Your terminal should say that you initialized an empty git repository. Do two th
 
 ```python
 total 16
-drwxr-xr-x   4 jonathangrossman  staff   128 Sep 30 14:07 .
-drwxr-xr-x   4 jonathangrossman  staff   128 Jun 21 15:35 ..
-drwxr-xr-x  12 jonathangrossman  staff   384 Sep 30 14:49 .git
+drwxr-xr-x   4 name  staff   128 Sep 30 14:07 .
+drwxr-xr-x   4 name  staff   128 Jun 21 15:35 ..
+drwxr-xr-x  12 name  staff   384 Sep 30 14:49 .git
 ```
 
 The other thing is the terminal command `git status`.
@@ -138,7 +138,7 @@ git remote
 Now add a remote. When you add a remote, you are telling the local git repository the address of where to find your remote repository. To add a remote repository to your local git, the terminal command is `git remote add <name_of_remote> <link_to_github_repo>`. For the `<name_of_remote>`, use `origin`. For the `<link_to_github_repo>`, it is on the Quickstart page for your repo and looks something like `git@github.com:<your_github_username>/<your_github_repo_name>.git`.
 
 ```python
-git remote add origin git@github.com:JonathanGrossmanITC/github_exercises.git
+git remote add origin git@github.com:YourGitHubName/github_exercises.git
 
 # should return nothing in the terminal
 ```
@@ -165,7 +165,7 @@ Delta compression using up to 8 threads
 Compressing objects: 100% (2/2), done.
 Writing objects: 100% (3/3), 770 bytes | 770.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
-To github.com-JonathanGrossmanITC:JonathanGrossmanITC/github_exercises.git
+To github.com-YourGitHubName:YourGitHubName/github_exercises.git
  * [new branch]      master -> master
 Branch 'master' set up to track remote branch 'master' from 'origin'.
 ```
