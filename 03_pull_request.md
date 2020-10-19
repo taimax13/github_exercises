@@ -1,6 +1,8 @@
-Contributing to open source and company projects is common for developers. To contribute, oftentimes you do so using a pull request. If you are a member of the repository, you can create a new branch, edit the code, and then issue a pull request. If you are not a member of the repository, if you have access, you can fork it to your GitHub repo and then create the pull request. This exercise focuses on the first scenario. The second scenario is more advanced.
+## Pull Requests
 
-For this exercise, you should use the cloned version of the GitHub Exercises repository. You already have read and write access to a repository. You need read access to create a pull request. Plus, you need write access to create a branch for your pull request.
+Making pull requests to a GitHub repository is common when contributing to your work projects and open source projects. When you make a pull request to a GitHub repository, you're asking the repository's administrators to incorporate the code in your pull request into their main repository. If you are a member of the main repository to which you make your pull request, you can make a pull request from a branch. Create a new branch, edit the code, and then issue a pull request. If you are not a member of the repository, if you have access, you can fork the repository to your GitHub repo and then create the pull request. This exercise focuses on the first scenario. The second scenario is more advanced and not necessary to know for this course.
+
+For this exercise, you should use the cloned version of the GitHub Exercises repository that you made in the previous exercises. You already have read and write access to it. You need read access to create a pull request. Plus, you need write access to create a branch for your pull request.
 
 Here are the steps you will follow for creating a pull request.
 
