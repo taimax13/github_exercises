@@ -1,10 +1,10 @@
 ## Create New Branch
 
-In this exercise, you are going to create a new branch in your git directory. A branch is a copy of the master that you can make edits to. Professional developers use branches to develop new features outside of the main git history so that they can perfect their work before merging it into the master branch. A common workflow is to create a new branch from the master, write your new code, merge the competed code into the master, delete the branch.
+In this exercise, you are going to create a new branch in your git directory. A branch is a copy of the `main` branch. You can make edits to this copy without changing the `main` branch. Professional developers use branches to develop new features outside of the `main` git history so that they can perfect their work before merging it into the `main` branch. A common workflow is to create a new branch from the `main`, write and test your new code, merge the completed code into the `main`, and then delete the feature branch.
 
 Create a new branch called `from _itc`. Enter in your terminal the command `git checkout -b from_itc`. The `checkout`command is how you switch between locations in git, `-b` is for making a new branch, and `from_itc` is the name of the new branch.
 
-```
+```shell
 >>> git checkout -b from_itc
 
 # output
@@ -13,14 +13,14 @@ Switched to a new branch 'from_itc'
 
 If you run the same command again, you'll get a message saying the branch already exists.
 
-```
+```shell
 >>> git checkout -b from_itc
 
 # output
 fatal: A branch named 'from_itc' already exists.
 ```
 
-To switch from the `from_itc` branch back to master, enter `git checkout master`. To switch from master to `from_itc`, enter `git checkout from_itc`. Each time you switch, your terminal should message you something like the following.
+To switch from the `from_itc` branch back to `main`, enter `git checkout main`. To switch from `main` to `from_itc`, enter `git checkout from_itc`. Each time you switch, your terminal should message you something like the following.
 
 ```
 # output in terminal
@@ -35,7 +35,7 @@ To see a list of your branches and which branch you're on, enter `git branch`.
 
 # output
 * from_itc
-  master
+  main
 ```
 
 Make sure you're in the `from_itc` branch. `git checkout from_itc`. Type `ls` to see a list of the contents. What is in your folder?
@@ -56,7 +56,7 @@ Unpacking objects: 100% (12/12), done.
 
 Type `ls` to see a list of the contents. Do you see the cloned repo? What else is in your folder?
 
-Change directories into the folder for the repository you just cloned. Look at the list of all contents using `ls -al`. You should see a `.git` folder. This is the local git history for the cloned repo. You should delete it. After deleting it, type `ls -al` to confirm it's gone.
+Change directories into the folder for the repository you just cloned. Look at the list of all contents using `ls -al`. You should see a `.git` folder. This is the local git history for the cloned repo. If you were going to contribute code to the repo you're cloning, you would work with the cloned repo's git history. However, in this exercise, you are not contributing code to the cloned repo. Instead, you're just copying the code. So, you should delete the clone repo's git history. Deleting a git history is not something you should do lightly because it deletes the entire history from that folder. After deleting it, type `ls -al` to confirm it's gone.
 
 If you don't delete the cloned repo's git history, you will get a warning message like the following:
 
@@ -93,9 +93,9 @@ Your branch is up to date with 'origin/from_itc'.
 nothing to commit, working tree clean
 ```
 
-Now switch from the `from_itc` branch to the `master` branch entering in your terminal `git checkout master`. You folders in VS Code should change to the master branch. Look at your folders. The cloned repo folder should be missing from your `master` branch.
+Now switch from the `from_itc` branch to the `main` branch by entering in your terminal `git checkout main`. Your folders in VS Code should change to the `main` branch. Look at your folders. The cloned repo folder should be missing from your `main` branch.
 
-You should now merge the `from_itc` branch into the `master` branch. Enter in the terminal `git merge from_itc`. In your terminal, you should see something like:
+You should now merge the `from_itc` branch into the `main` branch. Enter in the terminal `git merge from_itc`. In your terminal, you should see something like:
 
 ```
 Updating 22e99f0..761baee
@@ -114,9 +114,9 @@ Fast-forward
  create mode 100644 github_exercises/04_clone_project.md
 ```
 
-Also, look at your folders in VS Code. The folder for the repository that you cloned into the `from_itc` branch should now appear in `master`. In your terminal, type `git branch`. It should indicate that you're in the `master` branch.
+Also, look at your folders in VS Code. The folder for the repository that you cloned into the `from_itc` branch should now appear in `main`. In your terminal, type `git branch`. It should indicate that you're in the `main` branch.
 
-Now you need to stage and commit your changes to the `master` branch. Then push your commits to GitHub.
+Now you need to stage and commit your changes to the `main` branch. Then push your commits to GitHub.
 
 ```
 git add -A
@@ -162,7 +162,7 @@ const gitPull = "";
 const gitRemote = "";
 ```
 
-Don't yet add actual definitions. Push your changes to the `definitions` branch. Then merge the `definitions` branch into the master branch. Next stage and commit the change to master. Finally, push the master to GitHub.
+Don't yet add actual definitions. Push your changes to the `definitions` branch. Then merge the `definitions` branch into the `main` branch. Next stage and commit the change to `main`. Finally, push the `main` to GitHub.
 
 When merging two branches, the branches might have a conflict. A conflict occurs when two branches have edits for the same file that interfere with one another. You can't make both edits because making one of the edits means you can't make the other.
 
@@ -170,8 +170,12 @@ To see what it's like to have a conflict, create a `revised-definitions` branch.
 
 While on your `revised-definitions` branch, in your gitHubCommands.js file, add definitions to to each variable inside the quotation marks. Stage, commit, and push your changes to `revised-definitions`.
 
-Checkout the `master` branch.
+Checkout the `main` branch.
 
 In your gitHubCommands.js file, assuming you don't already have the exact definition, change the definition for `gitRemote` to `const gitRemote = "manage remote git (GitHub)";`. When you try to save your file in VS Code, VS Code may give you an error message saying you have a conflict between files. Fix the conflict. Then merge `revised-definitions` to `master`. Then, stage, commit, and push to `master`.
 
-If you don't see an error from VS Code when trying to save, go ahead and merge `revised-definitions` to `master`. If you still don't see a merge conflict. Stage and commit your changes to `master` and then merge `revised-definitions` to `master`. At some point along the way, you should see a merge conflict. It's when two branches have changes that are inconsistent with one another. You need to choose which change should be accepted. After resolving conflicts, merg your `revised-definitions` branch into `master`. Then you should stage, commit, and push your `master` branch.
+If you don't see an error from VS Code when trying to save, go ahead and merge `revised-definitions` to `main`. If you still don't see a merge conflict. Stage and commit your changes to `main` and then merge `revised-definitions` to `main`. At some point along the way, you should see a merge conflict. It's when two branches have changes that are inconsistent with one another. You need to choose which change should be accepted. After resolving conflicts, merge your `revised-definitions` branch into `main`. Then you should stage, commit, and push your `main` branch.
+
+## How to use branching to collaborate  
+
+Here is a good tutorial on [how to use branching to collaborate](https://youtu.be/MnUd31TvBoU) in Git and Github.
