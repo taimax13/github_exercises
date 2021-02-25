@@ -15,7 +15,11 @@ GitHub Classroom has all the tools that professional developers use to store and
 
 GitHub Classroom has the same tools as GitHub, plus it has built-in workflows designed to enhance interactions between students and staff. For instance, ITC can create a coding template for each exersice a student must complete, and GitHub Classroom will use it to create a GitHub Classroom repository for each student based on that coding template. Then, each student can submit their work for that exercise to their repository. 
 
-Another Classroom features is the **Feedback**. For each assignment, after a student submits their work, a staff member can review it and provide in-line feedback in the **Feedback** pull request that Classroom automatically generates. The student can review the in-line feedback and then mark it as complete so that the staff knows.
+What is a repository?!
+
+A GitHub repository is a supercharged interactive online storage space for your code. In a GitHub repository, you store all the code for a project online. Plus, you can store and access the revision history of each file, discuss and manage your project with teammates, and almost anything else you can think of for storing and managing your code online. 
+
+One of the Classroom features in each student repository is the **Feedback** feature. For each assignment, after a student submits their work, a staff member can review it and provide in-line feedback in the **Feedback** pull request that Classroom automatically generates. The student can review the in-line feedback and then mark it as complete so that the staff knows.
 
 ## [Why Use GitHub Classroom](#why-use-github-classroom)     
 
@@ -34,7 +38,7 @@ Throughout the course, you also will have assignments that require you to build 
 
 Third, Github Classroom lets us easily keep track of your work. For each exercise and assignment, Github Classroom generates a repository for each student to store their work. ITC staff can see your repositories and know when and whether you've submitted code. This can help us identify students who are falling behing or speeding ahead!
 
-Fourth, GitHub Classroom makes it easy for us to review your code and provide you feedback. Using tools in the Classroom for receiving feedback will help you practice using GitHub tools generally. For instance, for your individual assignments, we use GitHub Classroom's **Feedback** pull request to comment on your code. You can review our comments right there in the **Feedback** pull request in your GitHub Classroom repository. Be sure to implement the feedback and mark the feedback as completed.   
+Fourth, GitHub Classroom makes it easy for us to review your code and provide feedback. For instance, for your individual assignments, we use GitHub Classroom's **Feedback** pull request to comment on your code. You can review our comments right there in the **Feedback** pull request in your GitHub Classroom repository. Be sure to implement the feedback and mark the feedback as completed. You should practice using these tools during the course. It will help you practice using GitHub pull requests, comments, and other communication tools for building team projects.    
 
 ## [Where To Access Your Classroom Repositories](#where-to-access-your-classroom-repositories)
 ## [How To Create A Classroom Repository](#how-to-create-a-classroom-repository)
