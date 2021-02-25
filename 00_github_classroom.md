@@ -61,7 +61,7 @@ After you click on the link to your new repository, it should redirect you to yo
 
 Great! Now you've successfully created a GitHub Classroom repository. The next step is to download it to your computer so that you can write code.
 
-- [How To Download Your Classroom Repository](#how-to-download-your-classroom-repository)  
+## [How To Download Your Classroom Repository](#how-to-download-your-classroom-repository)  
 
 First, you need to install `git` on your computer. To install `git`, you first should know what the terminal is. The terminal is software that lets you interact with your computer without a graphical user interface. You can use the terminal to install software, check the versions of installed software, and much more. When using the terminal, you will write short instructions that tell your computer what to do.
 
@@ -99,5 +99,5 @@ Then hit enter. You should see a message in your terminal that indicates success
 
 Also, open up your new folder. You should see the files and folders from the GitHub repository inside your new folder!  
 
-- [How To Modify Your Code](#how-to-modify-your-code)  
-- [How To Push Your Code To Your Classroom Repository](#how-to-push-your-code-to-your-classroom-repository)  
+## [How To Modify Your Code](#how-to-modify-your-code)  
+## [How To Push Your Code To Your Classroom Repository](#how-to-push-your-code-to-your-classroom-repository)  
