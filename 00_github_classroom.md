@@ -1,6 +1,17 @@
 # GitHub Classroom  
 
-In this course, you will use GitHub Classroom for sharing code. The two primary ways you will use GitHub classroom for sharing code are for (1) completing interview-style coding exercises, and (2) submitting individual and team assignments. At ITC, we use GitHub Classroom for several reasons.
+In this course, you will use GitHub Classroom for sharing code. The two primary ways you will use GitHub classroom for sharing code are for (1) completing interview-style coding exercises, and (2) submitting individual and team assignments. After reading this document, you will know:  
+
+- [What GitHub Classroom is](#what-github-classroom-is)  
+- [Why Use GitHub Classroom](#why-use-github-classroom) 
+- [Where To Access Your Classroom Repositories](#where-to-access-your-classroom-repositories)
+- [How To Create A Classroom Repository](#how-to-create-a-classroom-repository)
+
+## [What GitHub Classroom is](#what-github-classroom-is) 
+
+## [Why Use GitHub Classroom](#why-use-github-classroom)     
+
+At ITC, we use GitHub Classroom for several reasons.
 
 - Prepare you to **become a professional** developer  
 - **Share code** between and among students and ITC    
@@ -15,3 +26,5 @@ Third, Github Classroom lets us easily keep track of your work. For each exercis
 
 Fourth, GitHub Classroom makes it easy for us to review your code and provide you feedback. Using tools in the Classroom for receiving feedback will help you practice using GitHub tools generally. For instance, for your individual assignments, we use GitHub Classroom's **Feedback** pull request to comment on your code. You can review our comments right there in the **Feedback** pull request in your GitHub Classroom repository.  
 
+## [Where To Access Your Classroom Repositories](#where-to-access-your-classroom-repositories)
+## [How To Create A Classroom Repository](#how-to-create-a-classroom-repository)
