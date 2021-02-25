@@ -65,9 +65,7 @@ Great! Now you've successfully created a GitHub Classroom repository. The next s
 
 First, you need to install `git` on your computer. To install `git`, you first should know what the terminal is. The terminal is software that lets you interact with your computer without a graphical user interface. You can use the terminal to install software, check the versions of installed software, and much more. When using the terminal, you will write short instructions that tell your computer what to do.
 
-When installing `git` on your computer, you will need to use the terminal. To access the terminal, search your computer for "Terminal". Once open, it will look something like this:
-
-![Terminal](/images/terminal.png)  
+When installing `git` on your computer, you will need to use the terminal. To access the terminal, search your computer for "Terminal". Once open, it will be pointing to your Desktop.
 
 Now that you know what the terminal is and how to access it, you can install `git`. Follow these [instructions for installing `git`](https://www.atlassian.com/git/tutorials/install-git).  
 
