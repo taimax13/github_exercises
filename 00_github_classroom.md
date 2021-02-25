@@ -40,5 +40,20 @@ Third, Github Classroom lets us easily keep track of your work. For each exercis
 
 Fourth, GitHub Classroom makes it easy for us to review your code and provide feedback. For instance, for your individual assignments, we use GitHub Classroom's **Feedback** pull request to comment on your code. You can review our comments right there in the **Feedback** pull request in your GitHub Classroom repository. Be sure to implement the feedback and mark the feedback as completed. You should practice using these tools during the course. It will help you practice using GitHub pull requests, comments, and other communication tools for building team projects.    
 
-## [Where To Access Your Classroom Repositories](#where-to-access-your-classroom-repositories)
+## [Where To Access Your Classroom Repositories](#where-to-access-your-classroom-repositories)  
+
+ITC staff will share with you a link to a GitHub Classroom each time you need to create a new GitHub Classroom repository. ITC staff will share the links through the **Google** Classroom. The link looks something like this:  
+
+```
+https://classroom.github.com/a/rhZAXqkk
+```
+
+After you click on the link, the browser should redirect you to GitHub Classroom. You should see a page that looks like this:  
+
+![GitHub Classroom](/images/github_classroom_one.png)  
+
+After you click on the link to your new repository, it should redirect you to your new repository and look something like this:  
+
+![GitHub Classroom](/images/github_classroom_two.png)  
+
 ## [How To Create A Classroom Repository](#how-to-create-a-classroom-repository)
