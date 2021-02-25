@@ -4,8 +4,12 @@ In this course, you will use GitHub Classroom for sharing code. The two primary 
 
 - [What GitHub Classroom is](#what-is-github-classroom)  
 - [Why Use GitHub Classroom](#why-use-github-classroom) 
-- [Where To Access Your Classroom Repositories](#where-to-access-your-classroom-repositories)
-- [How To Create A Classroom Repository](#how-to-create-a-classroom-repository)
+- [How To Create A Classroom Repository](#how-to-create-a-classroom-repository)  
+- [How To Download Your Classroom Repository](#how-to-download-your-classroom-repository)  
+- [How To Modify Your Code](#how-to-modify-your-code)  
+- [How To Push Your Code To Your Classroom Repository](#how-to-push-your-code-to-your-classroom-repository)  
+
+https://www.atlassian.com/git/tutorials/install-git
 
 ## [What Is GitHub Classroom](#what-is-github-classroom)  
 
@@ -40,7 +44,7 @@ Third, Github Classroom lets us easily keep track of your work. For each exercis
 
 Fourth, GitHub Classroom makes it easy for us to review your code and provide feedback. For instance, for your individual assignments, we use GitHub Classroom's **Feedback** pull request to comment on your code. You can review our comments right there in the **Feedback** pull request in your GitHub Classroom repository. Be sure to implement the feedback and mark the feedback as completed. You should practice using these tools during the course. It will help you practice using GitHub pull requests, comments, and other communication tools for building team projects.    
 
-## [Where To Access Your Classroom Repositories](#where-to-access-your-classroom-repositories)  
+## [How To Create A Classroom Repository](#how-to-create-a-classroom-repository) 
 
 ITC staff will share with you a link to a GitHub Classroom each time you need to create a new GitHub Classroom repository. ITC staff will share the links through the **Google** Classroom. The link looks something like this:  
 
@@ -56,4 +60,7 @@ After you click on the link to your new repository, it should redirect you to yo
 
 ![GitHub Classroom](/images/github_classroom_two.png)  
 
-## [How To Create A Classroom Repository](#how-to-create-a-classroom-repository)
+
+- [How To Download Your Classroom Repository](#how-to-download-your-classroom-repository)  
+- [How To Modify Your Code](#how-to-modify-your-code)  
+- [How To Push Your Code To Your Classroom Repository](#how-to-push-your-code-to-your-classroom-repository)  
