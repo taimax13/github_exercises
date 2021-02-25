@@ -69,7 +69,7 @@ When installing `git` on your computer, you will need to use the terminal. To ac
 
 Now that you know what the terminal is and how to access it, you can install `git`. Follow these [instructions for installing `git`](https://www.atlassian.com/git/tutorials/install-git).  
 
-With `git` installed, you now can pull the code from your GitHub repository to your computer. If you haven't already, create a folder on your Desktop for your work at ITC. Call it whatever you want, like "itc_bootcamp". 
+With `git` installed, you now can pull the code from your GitHub repository to your computer. If you haven't already, create a folder on your Desktop for your work at ITC. Call it whatever you want, like "itc_bootcamp_day_one". We recommend you use a short but descriptive folder name.   
 
 In your terminal, type `cd` and then spacebar, and then drag your new folder to the terminal. When you let go of the mouse, you should see the file path for your new folder. Hit enter in the terminal. Now the terminal is inside your new folder.  
 
