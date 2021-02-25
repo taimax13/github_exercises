@@ -9,7 +9,6 @@ In this course, you will use GitHub Classroom for sharing code. The two primary 
 - [How To Modify Your Code](#how-to-modify-your-code)  
 - [How To Push Your Code To Your Classroom Repository](#how-to-push-your-code-to-your-classroom-repository)  
 
-https://www.atlassian.com/git/tutorials/install-git
 
 ## [What Is GitHub Classroom](#what-is-github-classroom)  
 
@@ -56,11 +55,49 @@ After you click on the link, the browser should redirect you to GitHub Classroom
 
 ![GitHub Classroom](/images/github_classroom_one.png)  
 
-After you click on the link to your new repository, it should redirect you to your new repository and look something like this:  
+After you click on the link to your new repository, it should redirect you to your new repository. Sometimes the repository will come with folders and files and other times it might be empty. Regardless, here is an example of a repository that comes with folders and files:    
 
 ![GitHub Classroom](/images/github_classroom_two.png)  
 
+Great! Now you've successfully created a GitHub Classroom repository. The next step is to download it to your computer so that you can write code.
 
 - [How To Download Your Classroom Repository](#how-to-download-your-classroom-repository)  
+
+First, you need to install `git` on your computer. To install `git`, you first should know what the terminal is. The terminal is software that lets you interact with your computer without a graphical user interface. You can use the terminal to install software, check the versions of installed software, and much more. When using the terminal, you will write short instructions that tell your computer what to do.
+
+When installing `git` on your computer, you will need to use the terminal. To access the terminal, search your computer for "Terminal". Once open, it will look something like this:
+
+![Terminal](/images/terminal.png)  
+
+Now that you know what the terminal is and how to access it, you can install `git`. Follow these [instructions for installing `git`](https://www.atlassian.com/git/tutorials/install-git).  
+
+With `git` installed, you now can pull the code from your GitHub repository to your computer. If you haven't already, create a folder on your Desktop for your work at ITC. Call it whatever you want, like "itc_bootcamp". 
+
+In your terminal, type `cd` and then spacebar, and then drag your new folder to the terminal. When you let go of the mouse, you should see the file path for your new folder. Hit enter in the terminal. Now the terminal is inside your new folder.  
+
+With the terminal in your new project folder, you need to initiat `git`. To do so, type the following in your termainal and hit enter:  
+
+```terminal
+git init
+```
+
+The terminal should respond by saying something like `Initialized empty Git repository` in your new folder.
+
+With `git` initialized in your new folder, you can now pull the code from your GitHub repository into your new folder. In your GitHub repository, click on the green button that says "Code" and copy the `https` address.  
+
+![GitHub Classroom](/images/github_classroom_three.png)  
+
+Now, back in the terminal, type `git pull`, then spacebar, and then paste the `https` address. It'll look something like this:
+
+```terminal
+git pull https://github.com/israeltechchallenge/js-week01-d01-yourname.git
+```
+
+Then hit enter. You should see a message in your terminal that indicates success, and looks something like this:  
+
+![GitHub Classroom](/images/terminal_two.png)  
+
+Also, open up your new folder. You should see the files and folders from the GitHub repository inside your new folder!  
+
 - [How To Modify Your Code](#how-to-modify-your-code)  
 - [How To Push Your Code To Your Classroom Repository](#how-to-push-your-code-to-your-classroom-repository)  
