@@ -98,4 +98,27 @@ Then hit enter. You should see a message in your terminal that indicates success
 Also, open up your new folder. You should see the files and folders from the GitHub repository inside your new folder!  
 
 ## [How To Modify Your Code](#how-to-modify-your-code)  
+
+Open your new folder in VS Code. In VS Code, open the terminal by going to "View" and choosing "Terminal". A terminal session should open in VS Code and be pointing at your new folder. In VS Code, you can modify the folders and files that you downloaded from your GitHub repository. For the daily exercises, the only files you should modify are the index.js files in the EX folders.
+
+
 ## [How To Push Your Code To Your Classroom Repository](#how-to-push-your-code-to-your-classroom-repository)  
+
+When you are done with your work, you should push it from your new folder to the GitHub repository. To do so, in your terminal make sure it is pointing to your root level of your new folder. Then, enter the following in the terminal
+
+```terminal
+git add -A
+```
+Next, enter the following in the terminal:
+
+```terminal
+git commit -m "submitting tests"
+```
+
+Then, enter in the terminal the command `git push` followed by spacebar, followed by `--set-upstream`, followed by your repo's `https`, and then the word `master`. Here is an example:
+
+```terminal
+git push --set-upstream https://github.com/israeltechchallenge/js-week01-d01-yourname.git master
+```
+
+If you refresh your GitHub repository, you should see it updated with the changes you made!
