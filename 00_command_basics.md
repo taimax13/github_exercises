@@ -1,4 +1,4 @@
-# Command Basics
+# Command Line Basics
 
 As a developer, it is important that you know how to work with the command line. You will frequently use the command line to interact with your projects during development. For instance, you will commonly use the command line to install third-party software packages for your projects. 
 
