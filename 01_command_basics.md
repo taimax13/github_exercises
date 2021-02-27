@@ -23,6 +23,7 @@ The commands you use differ based on the operatring system you use and too many 
 
 ## [Where To Find The Command Line](#where-to-find-the-command-line)  
 
+How to find the command line depends on which operating system your computer runs. For Windows users, you are looking for the Command Line. You can [find it in several ways](https://tutorial.djangogirls.org/en/intro_to_command_line/#open-the-command-line-interface). One way is to open the Start menu → Windows System → Command Prompt. For Mac and Linux users, you are looking for the Terminal. You can [find the Terminal](https://tutorial.djangogirls.org/en/intro_to_command_line/#open-the-command-line-interface) in Applications → Utilities → Terminal.  
 
 ## [Basic Commands](#basic-commands)  
  
