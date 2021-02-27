@@ -128,6 +128,8 @@ If you refresh your GitHub repository, you should see it updated with the change
 
 To watch someone work with a GitHub Classroom repository that comes **with** starter code, [watch this video](https://www.youtube.com/watch?v=10krMetDSWs).  
 
+If you have trouble, make sure you have git initiated. If you did `git pull` instead of `git clone` to copy the GitHub repo to your machine, you may need to do inside your downloaded repo a few commands. First, check if git is initiated. Type `ls -al` in the terminal pointed at your repo folder on your computer. If you don't see a `.git` folder, then you should do the following steps in the command line: `git init`, then the `git pull https://github.com/israeltechchallenge/js-week01-d01-yourname.git master`, make your changes, `git add -A`, `git commit -m "your message"`, and then `git push --set-upstream https://github.com/israeltechchallenge/js-week01-d01-yourname.git master`.
+
 [![GitHub Classroom](images/gh_one.png)](https://www.youtube.com/watch?v=10krMetDSWs)
 
 The steps for working with a repository that comes without starter code are similar but some differences exist that you should know of. Those differences revolve around how you pull the code from GitHub to your machine and then connect your local copy of the project to the GitHub repository. To watch someone work with a GitHub Classroom repository that comes **without** starter code, [watch this video](https://www.youtube.com/watch?v=jXpT8eOzzCM).  
