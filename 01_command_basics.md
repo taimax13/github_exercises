@@ -21,7 +21,7 @@ Many people find the command line to be faster and more comfortable than using t
 
 The commands you use differ based on the operatring system you use and too many exist for you to memorize. In this course, however, you will learn some of the important commands to know, which will be ones you will use on a regular basis. Plus, StackOverflow has a lot of great answers. Regardless, in case you need them, here is a list of [commands for Windows users](https://www.computerhope.com/msdos.htm) and a list of [commands for linux and unix users](https://www.computerhope.com/unix.htm).  
 
-## [Where to find the command line](#where-to-find-the-command-line)  
+## [Where To Find The Command Line](#where-to-find-the-command-line)  
 
 
 ## [Basic Commands](#basic-commands)  
@@ -39,5 +39,5 @@ The commands you use differ based on the operatring system you use and too many 
 | rmdir /S	| rm -r	      | delete a directory	| rm -r testdirectory | 
 | [CMD] /?	| man [CMD]   | get help for a command	| cd /? (Windows) or man cd (Mac OS / Linux) | 
 
-## [Where To Find Commands For git And GitHub](#where-to-find-commands-for-git-and-github)  
+## [Where To Find Commands For `git` And GitHub](#where-to-find-commands-for-git-and-github)  
 
