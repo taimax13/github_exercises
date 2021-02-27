@@ -1,6 +1,8 @@
 # GitHub Classroom  
 
-In this course, you will use GitHub Classroom for sharing code. The two primary ways you will use GitHub classroom for sharing code are for (1) completing interview-style coding exercises, and (2) submitting individual and team assignments. After reading this document, you will know:  
+In this course, you will use GitHub Classroom for sharing code. The two primary ways you will use GitHub classroom for sharing code are for (1) completing interview-style coding exercises, and (2) submitting individual and team assignments. Be sure to read to the end because you'll find helpful videos that show someone working with GitHub classroom in the ways described in this document. 
+
+After reading this document, you will know:  
 
 - [What GitHub Classroom is](#what-is-github-classroom)  
 - [Why Use GitHub Classroom](#why-use-github-classroom) 
@@ -124,5 +126,8 @@ git push --set-upstream https://github.com/israeltechchallenge/js-week01-d01-you
 
 If you refresh your GitHub repository, you should see it updated with the changes you made!
 
-To watch someone work with GitHub Classroom, **[watch this video](https://www.youtube.com/watch?v=jXpT8eOzzCM)**.
+To watch someone work with GitHub Classroom, **[watch this video](https://www.youtube.com/watch?v=jXpT8eOzzCM)**.  
+
+[![GitHub Classroom](images/gh_one.png)](https://www.youtube.com/watch?v=jXpT8eOzzCM)
+
 
