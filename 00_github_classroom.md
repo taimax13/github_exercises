@@ -124,7 +124,5 @@ git push --set-upstream https://github.com/israeltechchallenge/js-week01-d01-you
 
 If you refresh your GitHub repository, you should see it updated with the changes you made!
 
-
-<iframe  title="YouTube video player" width="480" height="390" src="https://www.youtube.com/embed/jXpT8eOzzCM" frameborder="0" allowfullscreen></iframe>
-
+To watch someone work with GitHub Classroom, **[watch this video](https://www.youtube.com/watch?v=jXpT8eOzzCM)**.
 
