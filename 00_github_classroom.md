@@ -1,6 +1,10 @@
 # GitHub Classroom  
 
-In this course, you will use GitHub Classroom for sharing code. The two primary ways you will use GitHub classroom for sharing code are for (1) completing interview-style coding exercises, and (2) submitting individual and team assignments. Be sure to read to the end because you'll find helpful videos that show someone working with GitHub classroom in the ways described in this document. 
+In this course, you will use GitHub Classroom for sharing code. The two primary ways you will use GitHub classroom for sharing code are for (1) completing interview-style coding exercises, and (2) submitting individual and team assignments. 
+
+Before reading this document, you should first read the document about using the command line. It will help you get started with GitHub Classroom.
+
+Once you start reading this article, be sure to read to the end because you'll find helpful videos that show someone working with GitHub classroom in the ways described in this document and in the ways you'll want to for this course. 
 
 After reading this document, you will know:  
 
