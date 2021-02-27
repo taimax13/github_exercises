@@ -1,8 +1,13 @@
 # Command Basics
+ 
+| Command (Windows)  | Command (Mac OS / Linux) | Description |	Example |
+| ------------- | ------------- | ------------- | ------------- |
+| exit  | exit  | close the window | exit |
 
 
-Command (Windows)	Command (Mac OS / Linux)	Description	Example
-exit	exit	close the window	exit
+
+		
+			
 cd	cd	change directory	cd test
 cd	pwd	show the current directory	cd (Windows) or pwd (Mac OS / Linux)
 dir	ls	list directories/files	dir
