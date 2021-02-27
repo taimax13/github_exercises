@@ -1,8 +1,10 @@
 # Command Basics
 
-As a developer, it is important you know how to work with the command line. You will frequently use the command line to interact with your projects during development. For instance, you will commonly use the command line to install third-party software packages for your projects. 
+As a developer, it is important that you know how to work with the command line. You will frequently use the command line to interact with your projects during development. For instance, you will commonly use the command line to install third-party software packages for your projects. 
 
-As you saw in the previous lesson, you also will use the command line to interact with `git` and GitHub. Therefore, you should know some basics about working with the command line.
+In this course, you will use GitHub Classroom to share and receive code with ITC and your classmates. To be effective with GitHub Clasroom, it will help you to be familiar with the basics of using the command line.
+
+As you will see in the next lesson, you will use the command line to interact with `git` and GitHub. However, before you do, it'll help to introduce yourself to command-line basics.  
 
 After reading this article, you will know:   
 
@@ -147,4 +149,11 @@ You will **use the command line to create and interact with local `git`** reposi
 
 Unlike a Microsoft Word Document or a Google Doc, `git` repositories don't save your work every few seconds after you make changes. Instead, you have to manually save each new version. You will do this using the command line. Specifically, you will learn the commands for how to check the status of the folders and files in your root folder (e.g., whether changes have been made since the last save), add one or more folders or files to the staging area for potential saving, and committing your staging area for final saving.
 
-You also will **use the command line to interact with GitHub**, an online community of `git` repositories and robust suite of version control tool. It's great for sharing code with teammates and also for making sure your code is backed up somewhere in case something bad happens to your computer. You'll learn commands for interacting with GitHub. For instance, you will use commands to push your saved `git` history to GitHub, clone and pull folders and files from GitHub to your computer, and to connect your local `git` repository to its own dedicated GitHub repository.
+You also will **use the command line to interact with GitHub**, an online community of `git` repositories and robust suite of version control tool. It's great for sharing code with teammates and also for making sure your code is backed up somewhere in case something bad happens to your computer. You'll learn commands for interacting with GitHub. For instance, you will use commands to push your saved `git` history to GitHub, clone and pull folders and files from GitHub to your computer, and to connect your local `git` repository to its own dedicated GitHub repository.  
+
+To help get you started, watch the following video. You don't need to understand it all. The purpose of you watching this now is to gain exposure to the types of things you will do with the command line to interact with `git` and GitHub. Then, when you read the next lecture materials and attend the next few lectures, you will already have some exposure to these topics and can build upon them. Plus, one of the best ways to become familiar with the command line, `git`, and GitHub is to watch someone.
+
+[![GitHub Classroom](images/git_basics.png)](https://www.youtube.com/watch?v=HVsySz-h9r4)
+
+
+It's okay if the video seems overwhelming. You will learn in detail in the following lessons the key things you'll need for this course and as a junior developer!
