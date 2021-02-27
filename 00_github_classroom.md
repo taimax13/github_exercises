@@ -126,7 +126,9 @@ If you refresh your GitHub repository, you should see it updated with the change
 
 
 <video width="320" height="240" controls>
-  <source src="https://www.youtube.com/watch?v=jXpT8eOzzCM" type="video/mp4">
+  <source src="https://www.youtube.com/embed/jXpT8eOzzCM" type="video/mp4">
 </video>
+
+<iframe  title="YouTube video player" width="480" height="390" src="http://www.youtube.com/watch?v=TheVideoID?autoplay=1" frameborder="0" allowfullscreen></iframe>
 
 
