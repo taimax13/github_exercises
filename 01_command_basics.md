@@ -51,7 +51,6 @@ To interact in powerful ways with folders and files using the command line, you 
  
 | Command (Windows)  | Command (Mac OS / Linux) | Description |	 
 | ------------- | ------------- | ------------- |  
-	
 | cd <path_to_directory>	| cd <path_to_directory>	| change directory |  
 | cd	| pwd	| show the full filepath for the current directory	|  
 | dir	| ls	| list directories/files	| dir | 
