@@ -46,19 +46,24 @@ $ ls
 You should see the terminal print a list of folders and files located in the folder that the command line is pointing to. Does that list look familiar to you?
 
 ## [Basic Commands](#basic-commands)  
+
+To interact in powerful ways with folders and files using the command line, you need to know only a few basic commands. The basic tasks you can do are the same regardless of your operating system. However, the command you enter for a specific task will depend upon your operating system. Here is a list of basic commands to get started. Note that "directory" is a folder and use of `<` and `>` indicate a placeholder for a real folder or filename.
  
-| Command (Windows)  | Command (Mac OS / Linux) | Description |	Example |
+| Command (Windows)  | Command (Mac OS / Linux) | Description |	 
 | ------------- | ------------- | ------------- | ------------- |
-| exit  | exit  | close the window              | exit |			
-| cd	| cd	| change directory              | cd test | 
-| cd	| pwd	| show the current directory	| cd (Windows) or pwd (Mac OS / Linux) | 
+	
+| cd <path_to_directory>	| cd <path_to_directory>	| change directory |  
+| cd	| pwd	| show the full filepath for the current directory	|  
 | dir	| ls	| list directories/files	| dir | 
-| copy	| cp	| copy file	                | copy c:\test\test.txt c:\windows\test.txt | 
-| move	| mv	| move file	                | move c:\test\test.txt c:\windows\test.txt | 
-| mkdir	| mkdir	| create a new directory        | 	mkdir testdirectory | 
-| rmdir (or del)| 	rm	                | delete a file	| del c:\test\test.txt | 
-| rmdir /S	| rm -r	      | delete a directory	| rm -r testdirectory | 
-| [CMD] /?	| man [CMD]   | get help for a command	| cd /? (Windows) or man cd (Mac OS / Linux) | 
+| cd.. | cd .. | move one directory up | 
+| mkdir < directory_name >	| mkdir < directory_name >	| create a new directory |
+| type nul > < directory_name > | touch < directory_name > | create new empty file |
+| del  < file_name > | 	rm < file_name > | delete a file	| 
+| rmdir /s < directory_name >	| rm -r	< directory_name > | delete a directory	| 
+| copy < source_filepath > < destination_filepath > 	| cp	< source_filepath > < destination_filepath > | copy file to dir or file	|  
+| move < source_filepath > < destination_filepath >	| mv < source_filepath > < destination_filepath >	| move file	| 
+| CMD /?	| man CMD | get help for a command	|
+| cls | clear | clear the terminal screen |
 
 ## [Where To Find Commands For `git` And GitHub](#where-to-find-commands-for-git-and-github)  
 
