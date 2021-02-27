@@ -9,7 +9,7 @@ After reading this article, you will know:
 - What the [command line is](#what-is-the-command-line)  
 - Where to [find the command line](#where-to-find-the-command-line)  
 - How to use [basic commands](#basic-commands)
-- Where to find [commands for `git` and GitHub](#where-to-find-commands-for-git-and-github)   
+- Using [commands for `git` and GitHub](#using-commands-for-git-and-github)   
 
 ## [What Is The Command Line](#what-is-the-command-line)  
 
@@ -139,5 +139,12 @@ Here is a step-by-step way to practice the basics. Follow the steps below using 
 - Change the pwd from `Code` to one directory up  
 - List the contents of the new pwd 
 
-## [Where To Find Commands For `git` And GitHub](#where-to-find-commands-for-git-and-github)  
+## [Using Commands For `git` And GitHub](#using-commands-for-git-and-github)  
 
+With a basic understanding of the command line and some experience with it, it's now time to introduce how you will use the command line for interacting with `git` and GitHub.
+
+You will **use the command line to create and interact with local `git`** repositories, which is software on your computer for tracking the history of your coding projects. It's a version control system for your work. You'll use the commend line to interact with it. For instance, you will use commands to initiate a `git` repository in the root folder of each of your projects. By having a `git` repository in your project's root folder, you can save versions of your work as you develop.
+
+Unlike a Microsoft Word Document or a Google Doc, `git` repositories don't save your work every few seconds after you make changes. Instead, you have to manually save each new version. You will do this using the command line. Specifically, you will learn the commands for how to check the status of the folders and files in your root folder (e.g., whether changes have been made since the last save), add one or more folders or files to the staging area for potential saving, and committing your staging area for final saving.
+
+You also will **use the command line to interact with GitHub**, an online version control tool. It's great for sharing code with teammates and also for making sure your code is backed up somewhere in case something bad happens to your computer. You'll learn commands for interacting with GitHub. For instance, you will use commands to push your saved `git` history to GitHub, clone and pull folders and files from GitHub to your computer, and to connect your local `git` repository to its own dedicated GitHub repository.
