@@ -23,9 +23,11 @@ The commands you use differ based on the operatring system you use and too many 
 
 ## [Where To Find The Command Line](#where-to-find-the-command-line)  
 
-How to find the command line depends on which operating system your computer runs. For Windows users, you are looking for the Command Prompt. You can [find it in several ways](https://tutorial.djangogirls.org/en/intro_to_command_line/#open-the-command-line-interface). One way is to open the Start menu → Windows System → Command Prompt.  
+You already have the command line on your computer. The software comes with the operating system. How to find the command line depends on which operating system your computer runs. 
 
-For Mac and Linux users, you are looking for the Terminal. You can [find the Terminal](https://tutorial.djangogirls.org/en/intro_to_command_line/#open-the-command-line-interface) in Applications → Utilities → Terminal.  
+For Windows users, look for the **Command Prompt**. You can [find it in several ways](https://tutorial.djangogirls.org/en/intro_to_command_line/#open-the-command-line-interface). One way is to open the Start menu → Windows System → Command Prompt.  
+
+For Mac and Linux users, look for the **Terminal**. You can [find the Terminal](https://tutorial.djangogirls.org/en/intro_to_command_line/#open-the-command-line-interface) in Applications → Utilities → Terminal.  
 
 Once open, you should see a window with a line containing some text. That text is the filepath of where on your computer the command line is currently active. When you first open the command line like described above, you should probably see a filepath containing the name of your computer, the username of the computer user, and a `$` or `>`. This means the command line is pointed to the root folder for that user on your computer. To help explain, look at the contents in that folder. 
 
