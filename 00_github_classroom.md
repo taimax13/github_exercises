@@ -107,7 +107,11 @@ After you write your code and run the tests, you should save your work in VS Cod
 
 ## [How To Push Your Code To Your Classroom Repository](#how-to-push-your-code-to-your-classroom-repository)  
 
-When you are done with your work, you should push it from your new folder to the GitHub repository. To do so, in VS Code, open the terminal by going to "View" and choosing "Terminal". A terminal session should open in VS Code and be pointing at your new folder. Make sure the terminal is pointing to your root level of your new folder. Then, enter the following in the terminal
+When you are done with your work, you should push it from your new folder to the GitHub repository. How you do that depends upon whether your Classroom repository came to you with or without starter code. For your JavaScript exercises, you will receive starter code. For your assignments, you will receive empty repositories. Accordingly, you should know both ways. 
+
+Here is a walk through of how to get started with a Classroom repository **that comes with starter code**. This will help you with the JavaScript exercises.
+
+Iin VS Code, open the terminal by going to "View" and choosing "Terminal". A terminal session should open in VS Code and be pointing at your new folder. Make sure the terminal is pointing to your root level of your new folder. Then, enter the following in the terminal
 
 ```terminal
 git add -A
@@ -124,9 +128,13 @@ Then, enter in the terminal the command `git push` followed by spacebar, followe
 git push --set-upstream https://github.com/israeltechchallenge/js-week01-d01-yourname.git master
 ```
 
-If you refresh your GitHub repository, you should see it updated with the changes you made!
+If you refresh your GitHub repository, you should see it updated with the changes you made!  
 
-To watch someone work with GitHub Classroom, **[watch this video](https://www.youtube.com/watch?v=jXpT8eOzzCM)**.  
+To watch someone work with a GitHub Classroom repository that comes **with** starter code, [watch this video](https://www.youtube.com/watch?v=10krMetDSWs).  
+
+[![GitHub Classroom](images/gh_one.png)](https://www.youtube.com/watch?v=10krMetDSWs)
+
+To watch someone work with a GitHub Classroom repository that comes **without** starter code, [watch this video](https://www.youtube.com/watch?v=jXpT8eOzzCM).  
 
 [![GitHub Classroom](images/gh_one.png)](https://www.youtube.com/watch?v=jXpT8eOzzCM)
 
