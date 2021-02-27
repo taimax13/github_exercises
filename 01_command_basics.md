@@ -47,22 +47,52 @@ You should see the terminal print a list of folders and files located in the fol
 
 ## [Basic Commands](#basic-commands)  
 
-To interact in powerful ways with folders and files using the command line, you need to know only a few basic commands. The basic tasks you can do are the same regardless of your operating system. However, the command you enter for a specific task will depend upon your operating system. Here is a list of basic commands to get started. Note that "directory" is a folder and use of `<` and `>` indicate a placeholder for a real folder or filename.
+To interact in powerful ways with folders and files using the command line, you need to know only a few basic commands. The basic tasks you can do are the same regardless of your operating system. However, the command you enter for a specific task will depend upon your operating system. Here is a list of basic commands to get started. Note that "directory" means "folder" and use of `<` and `>` indicate a placeholder for a real folder, filename, or command.
  
-| Command (Windows)  | Command (Mac OS / Linux) | Description |	 
+| Description | Command (Windows)  | Command (Mac OS / Linux) | 	 
 | ------------- | ------------- | ------------- |  
-| cd	| pwd	| show full filepath for the current directory	|  
-| dir	| ls	| list directories/files	| dir | 
-| cd <path_to_directory>	| cd <path_to_directory>	| change directory |  
-| cd.. | cd .. | move one directory up | 
-| mkdir < directory_name >	| mkdir < directory_name >	| create a new directory |
-| rmdir /s < directory_name >	| rm -r	< directory_name > | delete a directory	| 
-| type nul > < directory_name > | touch < directory_name > | create new empty file |
-| del  < file_name > | 	rm < file_name > | delete a file	| 
-| copy < from_path > < to_path > 	| cp	< from_path > < to_path > | copy file to dir or file	|  
-| move < from_path > < to_path >	| mv < from_path > < to_path >	| move file	| 
-| CMD /?	| man CMD | get help for a command	|
-| cls | clear | clear the terminal screen |
+| Show filepath for the current directory	| cd	| pwd	|   
+| List contents of pwd	| dir	| ls	| 
+| Change the pwd |cd <path_to_directory>	| cd <path_to_directory>	|   
+| Move pwd one directory up | cd.. | cd .. |  
+| Create a new directory | mkdir < directory_name >	| mkdir < directory_name >	| 
+| Delete a directory	|rmdir /s < directory_name >	| rm -r	< directory_name > |  
+| Create new empty file | type nul > < file_name > | touch < file_name > | 
+| Delete a file	|  del  < file_name > | 	rm < file_name > | 
+| Copy file to dir or file	| copy < from_path > < to_path > 	| cp	< from_path > < to_path > |   
+| Move file from one dir to another	| move < from_path > < to_path >	| mv < from_path > < to_path >	| 
+| Rename file | rename  file_path  new_name |  mv < from_path > < to_path >	|
+| Get help for a command	| < CMD > /?	| man < CMD > | 
+| Clear the terminal screen | cls | clear | 
+
+## [Practice The Basics](#practice-the-basics)
+
+Here is a step-by-step way to practice the basics. Follow the steps below using the command line, and after you will have some basic experience to do some powerful things quickly. You also will have a folder for storing all your development work. When you're done, take a screenshot of your terminal with the commands that you entered. Save that screenshot in your new development folder.
+
+- Open the command line  
+- Use **at least two** different commands to confirm your pwd is the desktop of your computer  
+- Create a new directory on your Desktop and name it `Code`  
+- Change your pwd to your new `Code` folder    
+- Create a new folder inside `Code` and name it `Bootcamp`      
+- Create another new folder inside `Code` and name it `Temporary`    
+- Change your pwd to the `Temporary` folder   
+- Create a file inside `Temporary` and name it `index.js`  
+- Save a copy `index.js` in the `Bootcamp` folder  
+- Change your pwd from the `Temporary` folder to your `Code` folder  
+- Delete the `Temporary` folder     
+- Take a screenshot of your terminal with the commands that you entered    
+- Rename the screenshot to `command_basics.png` (or whatever file type you have)  
+- Use the command line to move the screenshot to your `Bootcamp` folder    
+- Change your `pwd` to the `Bootcamp` folder  
+- List the contents of that folder to confirm your screenshot is there  
+- Change the pwd from `Bootcamp` to one directory up 
+- List the contents of the new pwd  
+- Change your `pwd` to the `Bootcamp` folder  
+- List the contents of that folder to confirm your screenshot is there  
+- Change the pwd from `Bootcamp` to one directory up 
+- List the contents of the new pwd 
+- Change the pwd from `Code` to one directory up  
+- List the contents of the new pwd 
 
 ## [Where To Find Commands For `git` And GitHub](#where-to-find-commands-for-git-and-github)  
 
