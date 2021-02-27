@@ -51,16 +51,16 @@ To interact in powerful ways with folders and files using the command line, you 
  
 | Command (Windows)  | Command (Mac OS / Linux) | Description |	 
 | ------------- | ------------- | ------------- |  
-| cd <path_to_directory>	| cd <path_to_directory>	| change directory |  
-| cd	| pwd	| show the full filepath for the current directory	|  
+| cd	| pwd	| show full filepath for the current directory	|  
 | dir	| ls	| list directories/files	| dir | 
+| cd <path_to_directory>	| cd <path_to_directory>	| change directory |  
 | cd.. | cd .. | move one directory up | 
 | mkdir < directory_name >	| mkdir < directory_name >	| create a new directory |
+| rmdir /s < directory_name >	| rm -r	< directory_name > | delete a directory	| 
 | type nul > < directory_name > | touch < directory_name > | create new empty file |
 | del  < file_name > | 	rm < file_name > | delete a file	| 
-| rmdir /s < directory_name >	| rm -r	< directory_name > | delete a directory	| 
-| copy < source_filepath > < destination_filepath > 	| cp	< source_filepath > < destination_filepath > | copy file to dir or file	|  
-| move < source_filepath > < destination_filepath >	| mv < source_filepath > < destination_filepath >	| move file	| 
+| copy < from_path > < to_path > 	| cp	< from_path > < to_path > | copy file to dir or file	|  
+| move < from_path > < to_path >	| mv < from_path > < to_path >	| move file	| 
 | CMD /?	| man CMD | get help for a command	|
 | cls | clear | clear the terminal screen |
 
