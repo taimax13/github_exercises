@@ -71,7 +71,7 @@ Great! Now you've successfully created a GitHub Classroom repository. The next s
 
 First, you need to install `git` on your computer. To install `git`, you first should know what the terminal is. The terminal is software that lets you interact with your computer without a graphical user interface. You can use the terminal to install software, check the versions of installed software, and much more. When using the terminal, you will write short instructions that tell your computer what to do.
 
-When installing `git` on your computer, you will need to use the terminal. To access the terminal, search your computer for "Terminal". Once open, it will be pointing to your Desktop.
+When installing `git` on your computer, you will need to use the terminal. To access the terminal, search your Windows computer for "Command Prompt" or your Mac for "Terminal". Once open, it will be pointing to your Desktop.
 
 Now that you know what the terminal is and how to access it, you can install `git`. Follow these [instructions for installing `git`](https://www.atlassian.com/git/tutorials/install-git).  
 
@@ -79,22 +79,14 @@ With `git` installed, you now can pull the code from your GitHub repository to y
 
 In your terminal, type `cd` and then spacebar, and then drag your new folder to the terminal. When you let go of the mouse, you should see the file path for your new folder. Hit enter in the terminal. Now the terminal is inside your new folder.  
 
-With the terminal in your new project folder, you need to initiat `git`. To do so, type the following in your termainal and hit enter:  
-
-```terminal
-git init
-```
-
-The terminal should respond by saying something like `Initialized empty Git repository` in your new folder.
-
-With `git` initialized in your new folder, you can now pull the code from your GitHub repository into your new folder. In your GitHub repository, click on the green button that says "Code" and copy the `https` address.  
+With the terminal in your new project folder, you can now clone the code from your GitHub repository into your new folder. In your GitHub repository, click on the green button that says "Code" and copy the `https` address.  
 
 ![GitHub Classroom](/images/github_classroom_three.png)  
 
-Now, back in the terminal, type `git pull`, then spacebar, and then paste the `https` address. It'll look something like this:
+Now, back in the terminal, type `git clone`, then spacebar, and then paste the `https` address. It'll look something like this:
 
 ```terminal
-git pull https://github.com/israeltechchallenge/js-week01-d01-yourname.git
+git clone https://github.com/israeltechchallenge/js-week01-d01-yourname.git
 ```
 
 Then hit enter. You should see a message in your terminal that indicates success, and looks something like this:  
@@ -102,6 +94,8 @@ Then hit enter. You should see a message in your terminal that indicates success
 ![GitHub Classroom](/images/terminal_two.png)  
 
 Also, open up your new folder. You should see the files and folders from the GitHub repository inside your new folder!  
+
+You now should enter `ls` in the command line. You should see the GitHub repository that you cloned. Next, **you need to change directories** into your new folder. To do so, enter in the command line `cd < the_name_of_your_repo>`. Then, enter `ls` again in the command line, and you shoud see the contents of your folder.
 
 ## [How To Modify Your Code](#how-to-modify-your-code)  
 
@@ -113,9 +107,11 @@ After you write your code and run the tests, you should save your work in VS Cod
 
 When you are done with your work, you should push it from your new folder to the GitHub repository. How you do that depends upon whether your Classroom repository came to you with or without starter code. For your JavaScript exercises, you will receive starter code. For your assignments, you will receive empty repositories. Accordingly, you should know both ways. 
 
-Here is a walk through of how to get started with a Classroom repository **that comes with starter code**. This will help you with the JavaScript exercises.
+Here is a walk through of how to get started with a Classroom repository **that comes with starter code**. This will help you with the JavaScript exercises. You can probably do the same approach for repositories that come without starter code. However, below is a video for each scenario that walks you through the steps for both.
 
-Iin VS Code, open the terminal by going to "View" and choosing "Terminal". A terminal session should open in VS Code and be pointing at your new folder. Make sure the terminal is pointing to your root level of your new folder. Then, enter the following in the terminal
+In VS Code, open the terminal by going to "View" and choosing "Terminal". A terminal session should open in VS Code. Make your pwd the repository folder you downloaded from the Classroom. Make sure the terminal is pointing to your root level of your new repository folder. To be sure, type `ls -al`. You should see a `.git` file in the terminal print out. That is your local git tracking folder that came with your Classroom repository.
+
+Next, enter the following in the terminal
 
 ```terminal
 git add -A
@@ -126,11 +122,7 @@ Next, enter the following in the terminal:
 git commit -m "submitting tests"
 ```
 
-Then, enter in the terminal the command `git push` followed by spacebar, followed by `--set-upstream`, followed by your repo's `https` (the same one you used earlier), and then the word `master`. Here is an example:
-
-```terminal
-git push --set-upstream https://github.com/israeltechchallenge/js-week01-d01-yourname.git master
-```
+Then, enter in the terminal the command `git push`. You should see a success message in the terminal.
 
 If you refresh your GitHub repository, you should see it updated with the changes you made!  
 
