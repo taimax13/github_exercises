@@ -13,6 +13,13 @@ After reading this article, you will know:
 
 ## [What Is The Command Line](#what-is-the-command-line)  
 
+The command line is a text-based way to interact with the software, folders, and files on your computer. Instead of using a graphical user interface, you enter into a prompt the commands for creating, viewing, moving, and manipulating files on your computer. You also can install and uninstall software using the command line. The command line has many names, such as terminal, cmd, CLI, prompt, and console.  
+
+At first, using the command line might feel slow and awkward. You don't know the commands, so you spend time researching how to do even the simplest of things. Plus, the feel and experience of using the command line is different from using the graphical user interface like you're used to. However, the more you use the command line, the faster you'll get. You'll start to memorize commands and feel at home using it. 
+
+Many people find the command line to be faster and more comfortable than using the graphical user interface for many tasks. For instance, you can rename a large number of files quickly using the command line, whereas it would take a long time to rename them using the graphical user interface.  
+
+The commands you use differ based on the operatring system you use and too many exist for you to memorize. In this course, however, you will learn some of the important commands to know, which will be ones you will use on a regular basis. Plus, StackOverflow has a lot of great answers. Regardless, in case you need them, here is a list of [commands for Windows users](https://www.computerhope.com/msdos.htm) and a list of [commands for linux and unix users](https://www.computerhope.com/unix.htm).  
 
 ## [Where to find the command line](#where-to-find-the-command-line)  
 
