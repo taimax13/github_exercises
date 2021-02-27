@@ -138,8 +138,8 @@ To watch someone work with a GitHub Classroom repository that comes **with** sta
 
 [![GitHub Classroom](images/gh_one.png)](https://www.youtube.com/watch?v=10krMetDSWs)
 
-The steps for working with a repository that comes without starter code are similar but some differences exist that you should know of. Those differences revolve around how you connect your local copy of the project to the GitHub repository. To watch someone work with a GitHub Classroom repository that comes **without** starter code, [watch this video](https://www.youtube.com/watch?v=jXpT8eOzzCM).  
+The steps for working with a repository that comes without starter code are similar but some differences exist that you should know of. Those differences revolve around how you pull the code from GitHub to your machine and then connect your local copy of the project to the GitHub repository. To watch someone work with a GitHub Classroom repository that comes **without** starter code, [watch this video](https://www.youtube.com/watch?v=jXpT8eOzzCM).  
 
 [![GitHub Classroom](images/gh_one.png)](https://www.youtube.com/watch?v=jXpT8eOzzCM)
 
-
+In the coming lessons, you see written materials that will help you when working without starter code.
