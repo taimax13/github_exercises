@@ -9,8 +9,8 @@ After this lesson, you will have:
 - (#how-to-use-branching-to-collaborate)  
 - (#create-new-branch)
 - (#push-the-branch)  
-
-## [Quick Recap on `git`-and-intro-to-branching](#quick-recap-on-git-and-intro-to-branching)    
+ 
+## [Quick Recap on `git` and intro to branching](#quick-recap-on-git-and-intro-to-branching)    
 
 [![GitHub Classroom](images/branching_zero.png)](https://www.youtube.com/watch?v=USjZcfj8yxE)  
 
