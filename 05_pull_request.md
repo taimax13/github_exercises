@@ -11,7 +11,7 @@ After reading this lesson, you will:
 - Two
 
 
-## [Making A Pull Request]
+## [Making A Pull Request](#making-a-pull-request)  
 
 If you are a member of the main repository to which you make your pull request, you can make a pull request from a branch. Create a new branch, edit the code, and then issue a pull request. If you are not a member of the repository, if you have access, you can fork the repository to your GitHub repo and then create the pull request. This exercise focuses on the first scenario. The second scenario is more advanced and not necessary to know for this course.
 
