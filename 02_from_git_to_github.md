@@ -11,7 +11,9 @@ This lesson is a workshop format. Follow along on as you read the instructions b
 
 Plus, you'll have more experience using the command line with `git` and GitHub and will gain experience with a common workflow for setting up projects.  
 
-Before you start the workshop tasks, get a quick conceptual overview of `git` and GitHub. This overview assumes you have no previous experience with `git` and GitHub. By the end, however, you'll have an excellent idea of what `git` and GitHub are and what you can use them for. Then, after the video, you can put what you learned from the video into actual practice on your machine and in your GitHub account.  
+Before you start the workshop tasks, get a quick conceptual overview of `git` and GitHub. This overview assumes you have no previous experience with `git` and GitHub. By the end, however, you'll have an excellent idea of what `git` and GitHub are and what you can use them for. 
+
+The video shows you how to perform some tasks on GitHub without using the command line. You've already learned how to perform many of these tasks using the command line, but it'll be good for you to see someone do them on GitHub. However, after the video, you will practice put what you learned from the video into practice on your machine using the command line and in your GitHub account.  
 
 [![GitHub Classroom](images/git_one.png)](https://www.youtube.com/watch?v=BCQHnlnPusY)  
 
