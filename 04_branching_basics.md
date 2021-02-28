@@ -1,4 +1,28 @@
-## Create New Branch
+# Branching Basics  
+
+In previous lessons, you learned how to create new projects from GitHub Classroom and from your computer. Whether starting from a GitHub repo or a project folder on your computer, you know how to setup your `git` and GitHub environments. Now it's time to discuss workflows. 
+
+After this lesson, you will have:
+
+- A [high-level recap](#quick-recap-on-git-and-github) on `git` and GitHub    
+- (#discussion-about-when-to-push-code)  
+- (#how-to-use-branching-to-collaborate)  
+- (#create-new-branch)
+- (#push-the-branch)  
+
+## [Quick Recap on `git` and GitHub](#quick-recap-on-git-and-github)    
+
+[![GitHub Classroom](images/branching_one.png)](https://www.youtube.com/watch?v=wpISo9TNjfU)  
+
+## [Discussion About When To Push Code](#discussion-about-when-to-push-code)  
+
+## [How to use branching to collaborate](#how-to-use-branching-to-collaborate)    
+
+Here is a good tutorial on [how to use branching to collaborate](https://youtu.be/MnUd31TvBoU) in Git and Github. 
+
+[![GitHub Classroom](images/branching_two.png)](https://youtu.be/MnUd31TvBoU)  
+
+## [Create New Branch](#create-new-branch)  
 
 In this exercise, you are going to create a new branch in your git directory. A branch is a copy of the `main` branch. You can make edits to this copy without changing the `main` branch. Professional developers use branches to develop new features outside of the `main` git history so that they can perfect their work before merging it into the `main` branch. A common workflow is to create a new branch from the `main`, write and test your new code, merge the completed code into the `main`, and then delete the feature branch.
 
@@ -78,7 +102,7 @@ hint: See "git help submodule" for more information.
 
 In the warning message, the "another git repository inside your current repository" is the cloned repo's git history. If you delete the cloned repo's git history, this warning message disappears.
 
-## Push the Branch
+## [Push the Branch](#push-the-branch)  
 
 You can change directories up one folder using `cd ..`. Change from the cloned repository folder up one to your project's folder. Type `ls` to see the folder contents.
 
@@ -176,6 +200,3 @@ In your gitHubCommands.js file, assuming you don't already have the exact defini
 
 If you don't see an error from VS Code when trying to save, go ahead and merge `revised-definitions` to `main`. If you still don't see a merge conflict. Stage and commit your changes to `main` and then merge `revised-definitions` to `main`. At some point along the way, you should see a merge conflict. It's when two branches have changes that are inconsistent with one another. You need to choose which change should be accepted. After resolving conflicts, merge your `revised-definitions` branch into `main`. Then you should stage, commit, and push your `main` branch.
 
-## How to use branching to collaborate  
-
-Here is a good tutorial on [how to use branching to collaborate](https://youtu.be/MnUd31TvBoU) in Git and Github.
