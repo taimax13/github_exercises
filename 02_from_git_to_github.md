@@ -8,6 +8,7 @@ This lesson is a workshop format. Follow along on as you read the instructions b
 - [Save Your Work Locally Using `git`](#save-your-work-locally-using-git)
 - [Create a GitHub repository](#create-a-github-repository) for your project  
 - [Connect your project](#connect-local-git-to-github) to GitHub and push your code    
+- [Recap](#recap) what you learned and how you'll use those skills as a professional developer   
 
 Plus, you'll have more experience using the command line with `git` and GitHub and will gain experience with a common workflow for setting up projects.  
 
@@ -200,3 +201,9 @@ Branch 'master' set up to track remote branch 'master' from 'origin'.
 The current version of your project folder from your computer should now be saved to GitHub. From here on out, you only need to use the command `git push` instead of `git push -u origin master` to push your local to the remote.
 
 Visit your GitHub repository in a browser. Make sure the page is freshly reloaded. You should see your commit in the repository. Your project folder from your computer should now be on GitHub.
+
+## [Recap](#recap)  
+
+Now that you have some hands-on experience with `git` and GitHub, revisit what you learned by reviewing what `git` and GitHub are and how you'll use them as a professional developer.  
+
+[![GitHub Classroom](images/branching_one.png)](https://www.youtube.com/watch?v=wpISo9TNjfU)  
