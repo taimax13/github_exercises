@@ -4,15 +4,15 @@ In previous lessons, you learned how to create new projects from GitHub Classroo
 
 After this lesson, you will have:
 
-- A [high-level recap](#quick-recap-on-git-and-github) on `git` and GitHub    
+- A [recap of `git` and an intro to branching](#quick-recap-on-git-and-intro-to-branching)   
 - (#discussion-about-when-to-push-code)  
 - (#how-to-use-branching-to-collaborate)  
 - (#create-new-branch)
 - (#push-the-branch)  
 
-## [Quick Recap on `git` and GitHub](#quick-recap-on-git-and-github)    
+## [Quick Recap on `git`-and-intro-to-branching](#quick-recap-on-git-and-intro-to-branching)    
 
-[![GitHub Classroom](images/branching_one.png)](https://www.youtube.com/watch?v=wpISo9TNjfU)  
+[![GitHub Classroom](images/branching_zero.png)](https://www.youtube.com/watch?v=USjZcfj8yxE)  
 
 ## [Discussion About When To Push Code](#discussion-about-when-to-push-code)  
 
