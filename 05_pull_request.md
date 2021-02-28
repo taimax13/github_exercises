@@ -2,6 +2,17 @@
 
 Making pull requests to a GitHub repository is common. You do it when contributing code to your work projects, side projects with friends, and open source projects. When you make a pull request to a GitHub repository, you're asking the repository's administrators to incorporate the code in your pull request into their main repository. 
 
+The video recaps things you learned in previous lessons about GitHub, like important GitHub fundamentals and branching. The video also discusses pull requests, which you haven't yet learned in detail. After watching the video, follow along with the workshop tasks in the text below the video in this document. You will practice one common way to make pull requests.    
+
+[![GitHub Classroom](images/pull_one.png)](https://www.youtube.com/watch?v=nhNq2kIvi9s)  
+
+After reading this lesson, you will:
+- One
+- Two
+
+
+## [Making A Pull Request]
+
 If you are a member of the main repository to which you make your pull request, you can make a pull request from a branch. Create a new branch, edit the code, and then issue a pull request. If you are not a member of the repository, if you have access, you can fork the repository to your GitHub repo and then create the pull request. This exercise focuses on the first scenario. The second scenario is more advanced and not necessary to know for this course.
 
 For this exercise, you should use the cloned version of the GitHub Exercises repository that you made in the previous exercises. You already have read and write access to it. You need read access to create a pull request. Plus, you need write access to create a branch for your pull request.
