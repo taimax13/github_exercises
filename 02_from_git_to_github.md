@@ -11,6 +11,10 @@ This lesson is a workshop format. Follow along on as you read the instructions b
 
 Plus, you'll have more experience using the command line with `git` and GitHub and will gain experience with a common workflow for setting up projects.  
 
+Before you start the workshop tasks, get a quick conceptual overview of `git` and GitHub. This overview assumes you have no previous experience with `git` and GitHub. By the end, however, you'll have an excellent idea of what `git` and GitHub are and what you can use them for. Then, after the video, you can put what you learned from the video into actual practice on your machine and in your GitHub account.  
+
+[![GitHub Classroom](images/git_one.png)](https://www.youtube.com/watch?v=BCQHnlnPusY)  
+
 ## [Initiate `git` On Local Machine](#initiate-git-on-local-machine)
 
 On your computer, create a project folder for your new project. Name it github_exercises. You can create the folder using your operating system's graphical user interface, which is probably the way you're used to creating new folders on your computer.  
