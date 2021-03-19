@@ -183,7 +183,7 @@ origin	https://github.com/your-github-name/your-repo-name.git (fetch)
 Now that you connected the local and remote repositories, you can save the local `git` history to your GitHub repo. Remember above when you committed changes to the local `git`? Now you are going to `push` those committed changes to your GitHub repository. When first connecting local to remote, the command is `git push -u origin master`.
 
 ```shell
-git push -u origin master
+git push -u origin main
 
 # output in terminal
 
@@ -195,10 +195,10 @@ Writing objects: 100% (3/3), 770 bytes | 770.00 KiB/s, done.
 Total 3 (delta 0), reused 0 (delta 0)
 To github.com-yourname:yourname/your-repo.git
  * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'origin'.
+Branch 'main' set up to track remote branch 'main' from 'origin'.
 ```
 
-The current version of your project folder from your computer should now be saved to GitHub. From here on out, you only need to use the command `git push` instead of `git push -u origin master` to push your local to the remote.
+The current version of your project folder from your computer should now be saved to GitHub. From here on out, you only need to use the command `git push` instead of `git push -u origin main` to push your local to the remote.
 
 Visit your GitHub repository in a browser. Make sure the page is freshly reloaded. You should see your commit in the repository. Your project folder from your computer should now be on GitHub.
 
