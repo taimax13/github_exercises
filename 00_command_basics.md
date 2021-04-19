@@ -92,7 +92,7 @@ $ mkdir Code
 
 Also note that you can use absolute or relative filepaths. An absolute filepath is the entire filepath needed to locate the folder or file on your computer, starting from the computer's root. A relative filepath, however, is only the filepath needed to locate the folder or file relative to your command line's present working directory. The present working directory is the folder the command line is currently pointing to.
 
-Here's more about relative paths. To refer to a file in the pwd, you just need to call it by its name. To refer to a file in a subfolder of the pwd, you need the subfolder name, a `/`, and the file name. Here is an example of copying a file from the pwd and saving it in an existing folder in the pwd named `Bootcamp`. 
+Here's more about relative paths. To refer to a file in the `pwd`, you just need to call it by its name. To refer to a file in a subfolder of the `pwd`, you need the subfolder name, a `/`, and the file name. Here is an example of copying a file from the `pwd` and saving it in an existing folder in the `pwd` named `Bootcamp`. 
 
 Windows
 ```terminal
@@ -104,42 +104,42 @@ Mac and Linux
 cp	index.js Bootcamp/index.js
 ```
 
-Notice that the path to `index.js` in the pwd and the path to `index.js` in `Bootcamp` are both relative paths. The relative path assumes the start is the pwd and the end is the name of the folder or file, and the in between are the folder names needed to connect the start to the end.  
+Notice that the path to `index.js` in the `pwd` and the path to `index.js` in `Bootcamp` are both relative paths. The relative path assumes the start is the `pwd` and the end is the name of the folder or file, and the in between are the folder names needed to connect the start to the end.  
 
 Finally, two shortcuts. 
 
 One, you can drag a folder from your computer's graphical user interface to the command line prompt. This results in the path to that folder. This is especially helpful when changing directories. You can type in your command line `cd`, then a space, and then drag the folder to the command line. Big time saver. 
 
-Two, you can use the `Tab` key on your computer to autofill the name of a folder or file in the pwd. The autofill only works if the command line can tell by what you've already typed which folder or file you're referring to. For instance, if you have in your pwd folders named `Boots` and `Bootcamp`, if you type `cd Boot` and then `Tab`, nothing will happen. But if you type `cd Bootc` and then `Tab`, then the command line will autofill `cd Bootcamp/` for you.
+Two, you can use the `Tab` key on your computer to autofill the name of a folder or file in the `pwd`. The autofill only works if the command line can tell by what you've already typed which folder or file you're referring to. For instance, if you have in your `pwd` folders named `Boots` and `Bootcamp`, if you type `cd Boot` and then `Tab`, nothing will happen. But if you type `cd Bootc` and then `Tab`, then the command line will autofill `cd Bootcamp/` for you.
 
 ## [Practice The Basics](#practice-the-basics)
 
 Here is a step-by-step way to practice the basics. Follow the steps below using the command line, and after you will have some basic experience to do some powerful things quickly. You also will have a folder for storing all your development work. When you're done, take a screenshot of your terminal with the commands that you entered. Save that screenshot in your new development folder.
 
 - Open the command line  
-- Use **at least two** different commands to confirm your pwd is the desktop of your computer  
+- Use **at least two** different commands to confirm your `pwd` is the desktop of your computer  
 - Create a new directory on your Desktop and name it `Code`  
-- Change your pwd to your new `Code` folder    
+- Change your `pwd` to your new `Code` folder    
 - Create a new folder inside `Code` and name it `Bootcamp`      
 - Create another new folder inside `Code` and name it `Temporary`    
-- Change your pwd to the `Temporary` folder   
+- Change your `pwd` to the `Temporary` folder   
 - Create a file inside `Temporary` and name it `index.js`  
 - Save a copy `index.js` in the `Bootcamp` folder  
-- Change your pwd from the `Temporary` folder to your `Code` folder  
+- Change your `pwd` from the `Temporary` folder to your `Code` folder  
 - Delete the `Temporary` folder     
 - Take a screenshot of your terminal with the commands that you entered    
 - Rename the screenshot to `command_basics.png` (or whatever file type you have)  
 - Use the command line to move the screenshot to your `Bootcamp` folder    
 - Change your `pwd` to the `Bootcamp` folder  
 - List the contents of that folder to confirm your screenshot is there  
-- Change the pwd from `Bootcamp` to one directory up 
-- List the contents of the new pwd  
+- Change the `pwd` from `Bootcamp` to one directory up 
+- List the contents of the new `pwd`  
 - Change your `pwd` to the `Bootcamp` folder  
 - List the contents of that folder to confirm your screenshot is there  
-- Change the pwd from `Bootcamp` to one directory up 
-- List the contents of the new pwd 
-- Change the pwd from `Code` to one directory up  
-- List the contents of the new pwd 
+- Change the `pwd` from `Bootcamp` to one directory up 
+- List the contents of the new `pwd` 
+- Change the `pwd` from `Code` to one directory up  
+- List the contents of the new `pwd` 
 
 ## [Using Commands For `git` And GitHub](#using-commands-for-git-and-github)  
 
@@ -149,7 +149,7 @@ You will **use the command line to create and interact with local `git`** reposi
 
 Unlike a Microsoft Word Document or a Google Doc, `git` repositories don't save your work every few seconds after you make changes. Instead, you have to manually save each new version. You will do this using the command line. Specifically, you will learn the commands for how to check the status of the folders and files in your root folder (e.g., whether changes have been made since the last save), add one or more folders or files to the staging area for potential saving, and committing your staging area for final saving.
 
-You also will **use the command line to interact with GitHub**, an online community of `git` repositories and robust suite of version control tool. It's great for sharing code with teammates and also for making sure your code is backed up somewhere in case something bad happens to your computer. You'll learn commands for interacting with GitHub. For instance, you will use commands to push your saved `git` history to GitHub, clone and pull folders and files from GitHub to your computer, and to connect your local `git` repository to its own dedicated GitHub repository.  
+You also will **use the command line to interact with GitHub**, an online community of `git` repositories and robust suite of version control tools. It's great for sharing code with teammates and also for making sure your code is backed up somewhere in case something bad happens to your computer. You'll learn commands for interacting with GitHub. For instance, you will use commands to push your saved `git` history to GitHub, clone and pull folders and files from GitHub to your computer, and to connect your local `git` repository to its own dedicated GitHub repository.  
 
 To help get you started, watch the following video. This video may overwhelm you. But don't worry. You don't need to understand it all. The purpose of you watching this now is to gain exposure to the types of things you will do with the command line to interact with `git` and GitHub. Then, when you read the next lecture materials and attend the next few lectures, you will already have some exposure to these topics and can build upon them. Plus, one of the best ways to become familiar with the command line, `git`, and GitHub is to watch someone.
 
