@@ -51,7 +51,7 @@ You should see the terminal print a list of folders and files located in the fol
 
 To interact in powerful ways with folders and files using the command line, you need to know only a few basic commands. The basic tasks you can do are the same regardless of your operating system. However, the command you enter for a specific task will depend upon your operating system. 
 
-Below is a list of basic commands to get started. Before you study it, here are a few notes to help you understand the commands. First, the word "directory" means "folder". Second, text wrapped inside `<` and `>` indicate a placeholder for a real folder, filename, or command.   
+Below is a list of basic commands to get started. Before you study it, here are a few notes to help you understand the commands. First, the word "directory" means "folder". Second, text wrapped inside `<` and `>` indicates a placeholder for a real folder, filename, or command.   
 
 A few more tips you should know about are below, but this is enough to introduce you to some basic commands for interacting with folders and files. Here is a list of basic commands.  
 
