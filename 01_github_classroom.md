@@ -22,7 +22,7 @@ GitHub Classroom is an online education tool for developers that allows students
 
 GitHub Classroom has all the tools that professional developers use to store and share code on GitHub. At its core, GitHub is an online version control system. It has many features that professional developers need for saving and managing their code. For instsance, GitHub lets you save your code online as you develop, which helps keep you from losing your work if something happens to your computer. With GitHub, you also can revert back to older drafts, create branches so that you can build and perfect features before adding them to the main project, review and comment on your co-worker's code, and much more. 
 
-GitHub Classroom has the same tools as GitHub, plus it has built-in workflows designed to enhance interactions between students and staff. For instance, ITC can create a coding template for each exersice a student must complete, and GitHub Classroom will use it to create a GitHub Classroom repository for each student based on that coding template. Then, each student can submit their work for that exercise to their repository. 
+GitHub Classroom has the same tools as GitHub, plus it has built-in workflows designed to enhance interactions between students and staff. For instance, ITC can create a coding template for each exercise a student must complete, and GitHub Classroom will use it to create a GitHub Classroom repository for each student based on that coding template. Then, each student can submit their work for that exercise to their repository. 
 
 What is a repository?!
 
