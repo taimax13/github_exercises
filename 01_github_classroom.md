@@ -45,7 +45,7 @@ Second, using GitHub Classroom, we can share code with you and you can share cod
 
 Throughout the course, you also will have assignments that require you to build a frontend, backend, or fullstack web application by completing certain milestones. For those, you also will submit your work to ITC through GitHub Classroom.  
 
-Third, Github Classroom lets us easily keep track of your work. For each exercise and assignment, Github Classroom generates a repository for each student to store their work. ITC staff can see your repositories and know when and whether you've submitted code. This can help us identify students who are falling behing or speeding ahead!
+Third, GitHub Classroom lets us easily keep track of your work. For each exercise and assignment, GitHub Classroom generates a repository for each student to store their work. ITC staff can see your repositories and know when and whether you've submitted code. This can help us identify students who are falling behing or speeding ahead!
 
 Fourth, GitHub Classroom makes it easy for us to review your code and provide feedback. For instance, for your individual assignments, we use GitHub Classroom's **Feedback** pull request to comment on your code. You can review our comments right there in the **Feedback** pull request in your GitHub Classroom repository. Be sure to implement the feedback and mark the feedback as completed. You should practice using these tools during the course. It will help you practice using GitHub pull requests, comments, and other communication tools for building team projects.    
 
